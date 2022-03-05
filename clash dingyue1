@@ -1,0 +1,4154 @@
+端口：7890
+襪子端口：7891
+允許局域網：真
+模式：規則
+日誌級別：信息
+外部控制器：：9090
+代理：
+  - {名稱：1，服務器：L1-aws-hk-02.baipiao.de，端口：1080，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-hk-02.baipiao.de}}
+  - {名稱：2，服務器：global-transit-01-hk.baipiao.de，端口：1114，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：3，服務器：30.HKG.ASIA.BIGAIRPORT.NET，端口：80，類型：vmess，uuid：11fa70b1-5c8b-46a5-a4be-a16244a227a0，alterId：1，密碼：auto，tls：false，網絡：ws，ws-path：/，ws-headers：{主機：30.HKG.ASIA.BIGAIRPORT.NET}}
+  - {名稱：4，服務器：L1-aws-hk-01.baipiao.de，端口：1080，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-hk-01.baipiao.de}}
+  - {名稱：5，服務器：global-transit-01-hk.baipiao.de，端口：1117，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：6，服務器：global-transit-01-hk.baipiao.de，端口：1112，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：7，服務器：global-transit-01-hk.baipiao.de，端口：1115，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：8，服務器：global-transit-01-hk.baipiao.de，端口：1108，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：9，服務器：29.HKG.ASIA.BIGAIRPORT.NET，端口：80，類型：vmess，uuid：11fa70b1-5c8b-46a5-a4be-a16244a227a0，alterId：1，密碼：auto，tls：false，網絡：ws，ws-path：/，ws-headers：{主機：29.HKG.ASIA.BIGAIRPORT.NET}}
+  - {名稱：10，服務器：global-transit-01-hk.baipiao.de，端口：1109，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：11，服務器：global-transit-01-hk.baipiao.de，端口：1110，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：12，服務器：global-transit-01-hk.baipiao.de，端口：1113，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-01-hk.baipiao.de}}
+  - {名稱：13，服務器：j12.yt001.xyz，端口：8005，類型：vmess，uuid：7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b，alterId：2，密碼：auto，tls：false，網絡：ws， ws-path: /, ws-headers: {Host: 45.77.132.135}}
+  - {名稱：14，服務器：45.32.60.26，端口：59583，類型：vmess，uuid：54e0213c-dfe2-4850-95d6-a7bc0e17517a，alterId：0，密碼：auto，tls：false}
+  - {名稱：15，服務器：global-transit-02-sg.baipiao.de，端口：1123，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-02-sg.baipiao.de}}
+  - {名稱：16，服務器：L1-aws-kr-13.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-13.baipiao.de}}
+  - {名稱：17，服務器：global-cdn-sg-01.baipiao.de，端口：443，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：是的，網絡：ws，ws-path：/pucloud，ws-headers：{主機：l1-sg-a-01.pucdn.me}}
+  - {名稱：18，服務器：L1-aws-kr-15.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-15.baipiao.de}}
+  - {名稱：19，服務器：j11.yt001.xyz，端口：15010，類型：vmess，uuid：7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b，alterId：2，密碼：auto，tls：false，網絡：ws， ws-path：/，ws-headers：{主機：107.191.53.211}}
+  - {名稱：20，服務器：L1-aws-kr-08.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-08.baipiao.de}}
+  - {名稱：21，服務器：global-transit-02-jp.baipiao.de，端口：114，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-02-jp.baipiao.de}}
+  - {名稱：22，服務器：j10.yt001.xyz，端口：15008，類型：vmess，uuid：7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b，alterId：2，密碼：auto，tls：false，網絡：ws， ws-path：/，ws-headers：{主機：167.179.80.15}}
+  - {名稱：23，服務器：global-cdn-lt-01.pucdn.me，端口：443，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：是的，網絡：ws，ws-path：/baiipiao，ws-headers：{主機：l2-in-01.pucdn.me}}
+  - {名稱：24，服務器：167.179.85.109，端口：59476，類型：vmess，uuid：954edf0f-9f98-4786-a993-db129ad77aa1，alterId：0，密碼：auto，tls：false}
+  - {名稱：25，服務器：global-transit-02-jp.baipiao.de，端口：105，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-02-jp.baipiao.de}}
+  - {名稱：26，服務器：L1-aws-kr-14.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-14.baipiao.de}}
+  - {名稱：27，服務器：172.67.199.187，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/，ws-headers：{主機：llajv.rebldp.tech}}
+  - {名稱：28，服務器：ac74dcea623fbeebf.awsglobalaccelerator.com，端口：1000，類型：vmess，uuid：786d1602-3cc9-405f-87c7-446c84cd92a8，alterId：2，密碼：auto，tls：true}
+  - {名稱：29，服務器：k10.yt001.xyz，端口：15011，類型：vmess，uuid：7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b，alterId：2，密碼：auto，tls：false，網絡：ws， ws-path：/，ws-headers：{主機：158.247.216.127}}
+  - {名稱：30，服務器：L1-aws-kr-09.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-09.baipiao.de}}
+  - {名稱：31，服務器：ahvuxfq.oqnqrysa.com，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws， ws-path：/，ws-headers：{主機：ahvuxfq.oqnqrysa.com}}
+  - {名稱：32，服務器：L1-aws-kr-12.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-12.baipiao.de}}
+  - {名稱：33，服務器：L1-aws-kr-21.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-21.baipiao.de}}
+  - {名稱：34，服務器：155.94.184.179，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：155.94.184.179}}
+  - {名稱：35，服務器：global-transit-02-jp.baipiao.de，端口：107，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-02-jp.baipiao.de}}
+  - {名稱：36，服務器：global-transit-02-jp.baipiao.de，端口：109，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-02-jp.baipiao.de}}
+  - {名稱：37，服務器：L1-aws-kr-07.baipiao.de，端口：80，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/pucloud，ws-headers：{主機：L1-aws-kr-07.baipiao.de}}
+  - {名稱：38，服務器：c-ru2.ooxc.cc，端口：443，類型：vmess，uuid：db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda，alterId：64，密碼：auto，tls：true，網絡： ws，ws-path：/jj，ws-headers：{主機：c-ru2.ooxc.cc}}
+  - {名稱：39，服務器：104.18.47.77，端口：443，類型：vmess，uuid：d31deba4-a686-40ff-b8d5-59a6349effb0，alterId：0，密碼：auto，tls：true，網絡：ws，ws-路徑：/ws/，ws-headers：{主機：download.china666.ml}}
+  - {名稱：40，服務器：v2.ddns1312.top，端口：443，類型：vmess，uuid：81a4c231-d055-4dbd-a374-0fe5bfe9ed72，alterId：0，密碼：auto，tls：true，網絡：ws， ws-path: /, ws-headers: {Host: v2.ddns1312.top}}
+  - {名稱：41，服務器：103.219.154.170，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：103.219.154.170}}
+  - {名稱：42，服務器：89.163.212.34，端口：443，類型：vmess，uuid：e5a59c58-d055-428e-b191-95fb5dcb7539，alterId：16，密碼：auto，tls：true，網絡：ws，ws-路徑：/ray，ws-headers：{主機：good.free9999.net}}
+  - {名稱：43，服務器：172.247.198.125，端口：443，類型：vmess，uuid：ca5581b9-8af8-42e1-b38d-9d51e5a8b2b6，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.00689323.xyz}}
+  - {名稱：44，服務器：172.67.29.99，端口：443，類型：vmess，uuid：ad806487-2d26-4636-98b6-ab85cc8521f7，alterId：0，密碼：auto，tls：true，網絡：ws，ws-路徑：/，ws-headers：{主機：baqihero.3505891325.workers.dev}}
+  - {名稱：45，服務器：k11.yt001.xyz，端口：8008，類型：vmess，uuid：7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b，alterId：2，密碼：auto，tls：false，網絡：ws， ws-path：/，ws-headers：{主機：158.247.203.253}}
+  - {名稱：46，服務器：45.76.191.128，端口：51397，類型：vmess，uuid：76d73c0d-81a6-435f-912d-9e10fdccc448，alterId：0，密碼：auto，tls：false}
+  - {名稱：47，服務器：us.199301.xyz，端口：30010，類型：vmess，uuid：fd00927a-b0c2-4629-aef7-d9ff15a9d722，alterId：16，密碼：auto，tls：false，網絡：ws， ws-path：/websocket，ws-headers：{主機：us.199301.xyz}}
+  - {名稱：48，服務器：188.34.140.79，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：188.34.140.79}}
+  - {名稱：49，服務器：llajv.rebldp.tech，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws， ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {名稱：50，服務器：global-transit-02-jp.baipiao.de，端口：106，類型：vmess，uuid：2e937b49-04fb-36d1-886d-97b2617aabb1，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/，ws-headers：{主機：global-transit-02-jp.baipiao.de}}
+  - {名稱：51，服務器：icook.tw，端口：443，類型：vmess，uuid：9595a2cc-3d22-11eb-92c7-6dbdb10e5bba，alterId：0，密碼：auto，tls：true，網絡：ws，ws-路徑：/mlh8uLRD/，ws-headers：{主機：fuck.skystar.ga}}
+  - {名稱：52，服務器：172.67.142.186，端口：443，類型：vmess，uuid：d31deba4-a686-40ff-b8d5-59a6349effb0，alterId：0，密碼：auto，tls：true，網絡：ws，ws-路徑：/ws/，ws-headers：{主機：download.china666.ml}}
+  - {名稱：53，服務器：dd.199301.xyz，端口：443，類型：vmess，uuid：fdb86cbc-c537-4a92-9717-0d4ba26ab9ea，alterId：2，密碼：auto，tls：true，網絡：ws， ws-path：/dde7fa4/，ws-headers：{主機：dd.199301.xyz}}
+  - {名稱：54，服務器：v1-aws-kr-08.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-08.tudog.me}}
+  - {名稱：55，服務器：45.43.14.83，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：56，服務器：104.19.3.26，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：57，服務器：37.120.194.99，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：58，服務器：104.148.30.83，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：59，服務器：123.215.16.234，端口：811，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：60，服務器：45.9.238.47，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：61，服務器：23.225.125.84，端口：443，類型：vmess，uuid：8fb921c0-564d-4d5a-9b13-384c01820126，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.56626173.xyz}}
+  - {名稱：62，服務器：cscu.akkk.xyz，端口：20123，類型：vmess，uuid：1921a2e1-1338-31ac-9a51-f20903643e4a，alterId：1，密碼：auto，tls：false，網絡：ws， ws-path: /v2ray, ws-headers: {Host: li3.jianghe1.top}}
+  - {名稱：63，服務器：45.43.14.85，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：64，服務器：45.43.14.103，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：65，服務器：103.156.50.115，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：66，服務器：66.181.45.169，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：66.181.45.169}}
+  - {名稱：67，服務器：37.120.151.14，端口：810，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：68，服務器：45.9.238.47，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：69，服務器：199.58.187.69，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：70，服務器：154.16.168.184，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：71，服務器：195.47.194.42，端口：31572，類型：ss，密碼：aes-256-gcm，密碼：n8w4StnbVD9dmXYn4Ajt87EA}
+  - {名稱：72，服務器：2.58.242.157，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：73，服務器：103.108.117.147，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：74，服務器：172.247.199.245，端口：443，類型：vmess，uuid：fa822afc-170c-412b-a876-cd077812a5b3，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.01902367.xyz}}
+  - {名稱：75，服務器：2.58.242.45，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：76，服務器：2.58.241.5，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：77，服務器：2.58.241.3，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：78，服務器：2.58.242.46，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：79，服務器：2.58.241.29，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：80，服務器：littlesur.ml，端口：443，類型：vmess，uuid：ef00dea8-4f38-11eb-81ab-5600032163dc，alterId：12，密碼：auto，tls：true，網絡：ws，ws-路徑：/uIc7k0n1/，ws-headers：{主機：littlesur.ml}}
+  - {名稱：81，服務器：2.58.241.29，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：82，服務器：199.10.64.69，端口：31572，類型：ss，密碼：aes-256-gcm，密碼：n8w4StnbVD9dmXYn4Ajt87EA}
+  - {名稱：83，服務器：154.84.1.70，端口：443，類型：vmess，uuid：ddf9e626-8a32-49d2-974b-ac32dd17146a，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.64978360.xyz}}
+  - {名稱：84，服務器：172.93.153.150，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：85，服務器：45.43.19.92，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：86，服務器：2.58.241.45，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：87，服務器：107.172.165.220，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：107.172.165.220}}
+  - {名稱：88，服務器：2.58.241.3，端口：35294，類型：ss，密碼：aes-256-gcm，密碼：J9Y2ncrdPEC38gwydNFFGBna}
+  - {名稱：89，服務器：185.128.24.34，端口：810，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：90，服務器：2.58.241.46，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：91，服務器：2.58.241.27，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：92，服務器：2.58.242.43，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：93，服務器：2.58.241.45，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：94，服務器：148.66.56.99，端口：810，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：95，服務器：2.58.241.45，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：96，服務器：103.152.151.69，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：97，服務器：103.152.151.85，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：98，服務器：2.58.241.27，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：99，服務器：104.19.3.98，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：100，服務器：2.58.241.5，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：101，服務器：2.58.241.4，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：102，服務器：2.58.241.43，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：103，服務器：dd.199301.xyz，端口：443，類型：vmess，uuid：fdb86cbc-c537-4a92-9717-0d4ba26ab9ea，alterId：2，密碼：auto，tls：true，網絡：ws， ws-path：/dde7fa4/，ws-headers：{主機：dd.199301.xyz}}
+  - {名稱：104，服務器：76.223.62.67，端口：20031，類型：vmess，uuid：fbf0b85e-d2c6-38ee-8d95-b2819f9053d1，alterId：1，密碼：auto，tls：false，網絡：ws，ws-路徑：/v2ray，ws-headers：{主機：awshk1.xxatf.top}}
+  - {名稱：105，服務器：37.120.151.14，端口：805，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G！yBwPWH3Vao}
+  - {名稱：106，服務器：103.152.151.67，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：107，服務器：rntwo.laoban666.xyz，端口：443，類型：vmess，uuid：114f5786-a8a0-446a-a32f-446893480560，alterId：10，密碼：auto，tls：true，網絡：ws， ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
+  - {名稱：108，服務器：45.9.238.38，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：109，服務器：2.58.241.27，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：110，服務器：buyvm.zhiyuanie.xyz，端口：443，類型：vmess，uuid：16fd9f7f-85c1-4a56-a055-782dd690ed10，alterId：10，密碼：auto，tls：true，網絡：ws， ws-path: /331bb/, ws-headers: {Host: buyvm.zhiyuanie.xyz}}
+  - {名稱：111，服務器：92.38.139.165，端口：810，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：112，服務器：104.19.3.11，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：113，服務器：104.19.45.185，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：114，服務器：cscu.akkk.xyz，端口：20118，類型：vmess，uuid：1921a2e1-1338-31ac-9a51-f20903643e4a，alterId：1，密碼：auto，tls：false，網絡：ws， ws-path: /v2ray, ws-headers: {Host: li15.jianghe1.top}}
+  - {名稱：115，服務器：104.18.6.138，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/，ws-headers：{主機：cdnde.irteyz.today}}
+  - {名稱：116，服務器：103.98.75.71，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：117，服務器：2.58.241.3，端口：38033，類型：ss，密碼：aes-256-gcm，密碼：xpQwyV4W5FdA6NMANJJx73US}
+  - {名稱：118，服務器：95.57.207.200，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：119，服務器：172.67.219.122，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/，ws-headers：{主機：xey.wrxjys.tech}}
+  - {名稱：120，服務器：13.230.232.108，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/mugua，ws-headers：{主機：13.230.232.108}}
+  - {名稱：121，服務器：123.162.188.188，端口：57666，類型：ss，密碼：aes-256-cfb，密碼：viwAdYMkCV3K}
+  - {名稱：122，服務器：2.58.241.3，端口：31944，類型：ss，密碼：aes-256-gcm，密碼：aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {名稱：123，服務器：45.9.238.23，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：124，服務器：2.58.242.45，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：125，服務器：104.18.7.138，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/，ws-headers：{主機：cdnde.irteyz.today}}
+  - {名稱：126，服務器：104.19.3.18，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：127，服務器：45.87.213.83，端口：35294，類型：ss，密碼：aes-256-gcm，密碼：J9Y2ncrdPEC38gwydNFFGBna}
+  - {名稱：128，服務器：v1-aws-sg-05.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-05.tudog.me}}
+  - {名稱：129，服務器：66.181.45.169，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：66.181.45.169}}
+  - {名稱：130，服務器：104.19.3.85，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：131，服務器：v1-aws-sg-03.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-03.tudog.me}}
+  - {名稱：132，服務器：103.156.50.91，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：133，服務器：178.175.128.237，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：134，服務器：w8cm40apsh2s19.q57idwx20sh5.xyz，端口：443，類型：vmess，uuid：9727a4f0-f224-4d4b-bef0-26eebbaf7048，alterId：444，密碼：auto，tls：true，網絡：ws， ws-path：/ffede0649fe5d8d/，ws-headers：{主機：w8cm40apsh2s19.q57idwx20sh5.xyz}}
+  - {名稱：135，服務器：104.19.3.15，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：136，服務器：104.19.3.29，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：137，服務器：v1-aws-sg-07.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-07.tudog.me}}
+  - {名稱：138，服務器：45.87.213.85，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：139，服務器：198.8.85.19，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：140，服務器：45.87.213.245，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：141，服務器：e.fovi.tk，端口：2053，類型：vmess，uuid：8bb15a90-0f6c-4d0c-dada-5c35cdfc969f，alterId：64，密碼：auto，tls：true，網絡：ws， ws-path: /, ws-headers: {Host: e.fovi.tk}}
+  - {名稱：142，服務器：l1-aws-jp-09.mugun.xyz，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/mugua，ws-headers：{主機：l1-aws-jp-09.mugun.xyz}}
+  - {名稱：143，服務器：v1-aws-sg-06.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-06.tudog.me}}
+  - {名稱：144，服務器：66.55.148.42，端口：804，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：145，服務器：172.105.127.199，端口：8099，類型：ss，密碼：aes-256-cfb，密碼：eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {名稱：146，服務器：v1-aws-sg-16.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-16.tudog.me}}
+  - {名稱：147，服務器：mga.centos8.cloud，端口：443，類型：vmess，uuid：9bf0b2a1-f890-3d79-ba0b-0aa35a04d8d5，alterId：16，密碼：auto，tls：true，網絡：ws， ws-path: /movie, ws-headers: {Host: mga.centos8.cloud}}
+  - {名稱：148，服務器：154.16.168.184，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：149，服務器：45.87.213.103，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：150，服務器：45.87.213.105，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：151，服務器：205.185.113.80，端口：443，類型：vmess，uuid：16fd9f7f-85c1-4a56-a055-782dd690ed10，alterId：10，密碼：auto，tls：true，網絡：ws，ws-路徑：/331bb/，ws-headers：{主機：buyvm.zhiyuanie.xyz}}
+  - {名稱：152，服務器：45.87.213.21，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：153，服務器：103.98.75.71，端口：31572，類型：ss，密碼：aes-256-gcm，密碼：n8w4StnbVD9dmXYn4Ajt87EA}
+  - {名稱：154，服務器：cscu.xxatf.top，端口：31001，類型：vmess，uuid：1921a2e1-1338-31ac-9a51-f20903643e4a，alterId：1，密碼：auto，tls：false，網絡：ws， ws-path：/v2ray，ws-headers：{主機：aws1.xxatf.top}}
+  - {名稱：155，服務器：v1-aws-jp-07.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-jp-07.tudog.me}}
+  - {名稱：156，服務器：45.87.213.213，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：157，服務器：154.84.1.235，端口：443，類型：vmess，uuid：d15111f5-ad92-4175-a238-7266cf665786，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.9142674173.xyz}}
+  - {名稱：158，服務器：37.120.151.14，端口：804，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：159，服務器：154.84.1.143，端口：443，類型：vmess，uuid：2886122d-02ab-4790-ac94-2bb32818a686，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.49836114.xyz}}
+  - {名稱：160，服務器：v1-aws-jp-08.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-jp-08.tudog.me}}
+  - {名稱：161，服務器：v1-aws-sg-14.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-14.tudog.me}}
+  - {名稱：162，服務器：45.87.213.85，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：163，服務器：45.87.213.211，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：164，服務器：l1-aws-jp-11.mugun.xyz，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/mugua，ws-headers：{主機：l1-aws-jp-11.mugun.xyz}}
+  - {名稱：165，服務器：104.31.94.236，端口：443，類型：vmess，uuid：8c35bef3-d51f-41ab-ac87-7b053410495b，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/，ws-headers：{主機：wishosting.haoren.ml}}
+  - {名稱：166，服務器：45.87.213.211，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：167，服務器：45.87.213.243，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：168，服務器：2.58.241.3，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：169，服務器：45.87.213.87，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：170，服務器：45.87.213.83，端口：31944，類型：ss，密碼：aes-256-gcm，密碼：aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {名稱：171，服務器：cscu.akkk.xyz，端口：20117，類型：vmess，uuid：1921a2e1-1338-31ac-9a51-f20903643e4a，alterId：1，密碼：auto，tls：false，網絡：ws， ws-path: /v2ray, ws-headers: {Host: li14.jianghe1.top}}
+  - {名稱：172，服務器：195.206.104.14，端口：807，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：173，服務器：27.255.77.197，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：174，服務器：v1-aws-sg-09.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-09.tudog.me}}
+  - {名稱：175，服務器：45.87.213.7，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：176，服務器：27.255.77.195，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：177，服務器：45.87.213.5，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：178，服務器：45.89.173.203，端口：31572，類型：ss，密碼：aes-256-gcm，密碼：n8w4StnbVD9dmXYn4Ajt87EA}
+  - {名稱：179，服務器：199.10.64.69，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：180，服務器：139.162.54.34，端口：8099，類型：ss，密碼：aes-256-cfb，密碼：eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {名稱：181，服務器：61.14.210.234，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：182，服務器：v1-aws-jp-10.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-jp-10.tudog.me}}
+  - {名稱：183，服務器：45.87.213.243，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：184，服務器：v1-aws-kr-11.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-11.tudog.me}}
+  - {名稱：185，服務器：v1-aws-kr-02.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-02.tudog.me}}
+  - {名稱：186，服務器：v1-aws-sg-08.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-08.tudog.me}}
+  - {名稱：187，服務器：103.249.31.28，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：188，服務器：192.111.134.220，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：189，服務器：45.87.213.103，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：190，服務器：202.143.111.213，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：191，服務器：103.249.31.24，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：192，服務器：45.87.213.101，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：193，服務器：103.249.31.24，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：194，服務器：184.170.243.195，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：195，服務器：45.87.213.19，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：196，服務器：v1-aws-kr-08.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-08.tudog.me}}
+  - {名稱：197，服務器：l1-aws-kr-10.mugun.xyz，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/mugua，ws-headers：{主機：l1-aws-kr-10.mugun.xyz}}
+  - {名稱：198，服務器：185.242.4.163，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：199，服務器：v1-aws-kr-07.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-07.tudog.me}}
+  - {名稱：200，服務器：45.43.19.66，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：201，服務器：v1-aws-kr-03.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-03.tudog.me}}
+  - {名稱：202，服務器：185.242.4.163，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：203，服務器：61.14.210.232，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：204，服務器：61.14.210.244，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：205，服務器：v1-aws-kr-13.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-13.tudog.me}}
+  - {名稱：206，服務器：172.105.127.199，端口：8097，類型：ss，密碼：aes-256-cfb，密碼：eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {名稱：207，服務器：45.87.212.211，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：208，服務器：v1-aws-kr-01.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-01.tudog.me}}
+  - {名稱：209，服務器：61.14.210.244，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：210，服務器：61.14.210.237，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：211，服務器：v1-aws-kr-11.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-11.tudog.me}}
+  - {名稱：212，服務器：61.14.210.242，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：213，服務器：61.14.210.239，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：214，服務器：61.14.210.244，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：215，服務器：v1-aws-kr-10.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-10.tudog.me}}
+  - {名稱：216，服務器：103.208.221.229，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：217，服務器：v1-aws-sg-06.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-06.tudog.me}}
+  - {名稱：218，服務器：103.208.221.227，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：219，服務器：www.aech.cc，端口：443，類型：vmess，uuid：ef3c6aa0-e5f2-4332-bad8-17c0438dfaa3，alterId：64，密碼：auto，tls：true，網絡：ws， ws-path：/ray，ws-headers：{主機：www.aech.cc}}
+  - {名稱：220，服務器：104.200.131.165，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：221，服務器：v1-aws-kr-10.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-10.tudog.me}}
+  - {名稱：222，服務器：124.244.186.121，端口：443，類型：vmess，uuid：b707c9e6-3a61-4f0b-8844-9a398cfadfb7，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/add76314/，ws-headers：{主機：centos.fuchau.xyz}}
+  - {名稱：223，服務器：193.9.112.183，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：224，服務器：192.145.37.68，端口：9019，類型：ss，密碼：aes-256-cfb，密碼：GA9KzeEgvfxNrgmM}
+  - {名稱：225，服務器：172.104.36.4，端口：8099，類型：ss，密碼：aes-256-cfb，密碼：eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {名稱：226，服務器：61.14.210.242，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：227，服務器：193.9.112.195，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：228，服務器：103.208.221.227，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：229，服務器：37.120.147.230，端口：800，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：230，服務器：176.61.146.84，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：231，服務器：v1-aws-sg-07.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-07.tudog.me}}
+  - {名稱：232，服務器：86.106.136.69，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：233，服務器：45.87.213.87，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：234，服務器：45.87.213.83，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：235，服務器：45.82.255.217，端口：9079，類型：ss，密碼：aes-256-cfb，密碼：TPqX8edgbAURcAMb}
+  - {名稱：236，服務器：66.115.147.67，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：237，服務器：104.200.131.229，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：238，服務器：104.200.131.249，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：239，服務器：v1-aws-kr-16.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-16.tudog.me}}
+  - {名稱：240，服務器：45.87.213.87，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：241，服務器：5.253.206.227，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：242，服務器：54.178.86.40，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/mugua，ws-headers：{主機：54.178.86.40}}
+  - {名稱：243，服務器：107.175.44.154，端口：443，類型：vmess，uuid：114f5786-a8a0-446a-a32f-446893480560，alterId：10，密碼：auto，tls：true，網絡：ws，ws-路徑：/27353486f3a1d4f/，ws-headers：{主機：rntwo.laoban666.xyz}}
+  - {名稱：244，服務器：45.12.222.245，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：245，服務器：45.85.3.162，端口：801，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：246，服務器：j.199301.xyz，端口：443，類型：vmess，uuid：6b38627b-a045-4d79-95c8-e505073dd12d，alterId：2，密碼：auto，tls：true，網絡：ws， ws-path：/0361125/，ws-headers：{主機：j.199301.xyz}}
+  - {名稱：247，服務器：38.95.110.73，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：248，服務器：172.104.36.4，端口：8097，類型：ss，密碼：aes-256-cfb，密碼：eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {名稱：249，服務器：176.61.146.106，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：250，服務器：v1-aws-kr-06.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-06.tudog.me}}
+  - {名稱：251，服務器：v1-aws-sg-10.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-10.tudog.me}}
+  - {名稱：252，服務器：45.43.19.68，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：253，服務器：v1-aws-sg-12.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-12.tudog.me}}
+  - {名稱：254，服務器：v1-aws-kr-14.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-14.tudog.me}}
+  - {名稱：255，服務器：213.59.119.7，端口：9007，類型：ss，密碼：aes-256-cfb，密碼：kSPmvwdFzGMMW5pY}
+  - {名稱：256，服務器：v1-aws-kr-09.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-09.tudog.me}}
+  - {名稱：257，服務器：2.56.175.240，端口：9050，類型：ss，密碼：aes-256-cfb，密碼：FG5ddLsMPbV5CutE}
+  - {名稱：258，服務器：66.115.154.147，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：259，服務器：38.68.134.196，端口：802，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：260，服務器：104.19.4.18，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：261，服務器：162.251.61.221，端口：803，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：262，服務器：63.141.248.179，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：263，服務器：v1-aws-sg-11.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-11.tudog.me}}
+  - {名稱：264，服務器：103.108.117.149，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：265，服務器：v1-aws-kr-14.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-14.tudog.me}}
+  - {名稱：266，服務器：45.43.19.74，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：267，服務器：66.115.147.74，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：268，服務器：104.19.3.12，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：269，服務器：132.145.115.125，端口：443，類型：vmess，uuid：6b38627b-a045-4d79-95c8-e505073dd12d，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/0361125/，ws-headers：{主機：j.199301.xyz}}
+  - {名稱：270，服務器：v1-aws-sg-14.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-14.tudog.me}}
+  - {名稱：271，服務器：104.19.3.31，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：272，服務器：174.128.245.147，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：273，服務器：176.119.157.189，端口：12708，類型：ss，密碼：aes-256-gcm，密碼：LTutSCN2PQEQSW}
+  - {名稱：274，服務器：v1-aws-kr-01.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-01.tudog.me}}
+  - {名稱：275，服務器：960579.us-1.baacloud1.com，端口：57666，類型：ss，密碼：aes-256-cfb，密碼：viwAdYMkCV3K}
+  - {名稱：276，服務器：23.254.204.203，端口：8097，類型：ss，密碼：aes-256-cfb，密碼：eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {名稱：277，服務器：148.72.169.213，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：278，服務器：172.86.124.121，端口：14504，類型：ss，密碼：aes-256-gcm，密碼：7WMZWweNCYXMyP}
+  - {名稱：279，服務器：v1-aws-kr-02.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-02.tudog.me}}
+  - {名稱：280，服務器：66.115.147.84，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：281，服務器：5.187.49.187，端口：31764，類型：ss，密碼：aes-256-gcm，密碼：YgusH2MWA8PWc3p2VDsR7AVv}
+  - {名稱：282，服務器：v1-aws-kr-16.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-16.tudog.me}}
+  - {名稱：283，服務器：v1-aws-kr-09.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-09.tudog.me}}
+  - {名稱：284，服務器：66.115.154.151，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：285，服務器：v1-aws-jp-08.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-jp-08.tudog.me}}
+  - {名稱：286，服務器：v1-aws-sg-15.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-sg-15.tudog.me}}
+  - {名稱：287，服務器：v1-aws-jp-09.tudog.me，端口：80，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-jp-09.tudog.me}}
+  - {名稱：288，服務器：v1-aws-kr-04.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-04.tudog.me}}
+  - {名稱：289，服務器：198.8.85.133，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：290，服務器：23.105.163.109，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：291，服務器：199.10.64.117，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：292，服務器：173.208.202.61，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：293，服務器：v1-aws-kr-12.tudog.me，端口：1080，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-12.tudog.me}}
+  - {名稱：294，服務器：139.180.201.218，端口：443，類型：vmess，uuid：025501c6-4f2c-11eb-a0c1-56000321591d，alterId：12，密碼：auto，tls：true，網絡：ws，ws-路徑：/n1aJ97Ke/，ws-headers：{主機：chinahr.cf}}
+  - {名稱：295，服務器：66.115.177.133，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：296，服務器：107.152.101.163，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：297，服務器：v1-aws-kr-03.tudog.me，端口：1080，類型：vmess，uuid：2d2d1297-da17-3d75-9248-734b53733e48，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-kr-03.tudog.me}}
+  - {名稱：298，服務器：199.10.64.115，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：299，服務器：v1-aws-jp-10.tudog.me，端口：80，類型：vmess，uuid：f4d6df8d-bb76-3052-93fd-18fe167020cc，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/tudog，ws-headers：{主機：v1-aws-jp-10.tudog.me}}
+  - {名稱：300，服務器：192.40.59.229，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：301，服務器：23.225.125.86，端口：443，類型：vmess，uuid：8fb921c0-564d-4d5a-9b13-384c01820126，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.56626173.xyz}}
+  - {名稱：302，服務器：ddns.ddns1312.top，端口：20500，類型：vmess，uuid：efd12afd-b2b0-42fe-a6c0-f315e11f6b75，alterId：12，密碼：auto，tls：false，網絡：ws， ws-path: /, ws-headers: {Host: ddns.ddns1312.top}}
+  - {名稱：303，服務器：66.115.154.133，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：304，服務器：104.19.3.25，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：305，服務器：61.14.210.234，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：306，服務器：104.19.4.12，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：307，服務器：142.4.126.130，端口：443，類型：vmess，uuid：c82b9fb2-fc4e-413b-b612-57f13255cf7c，alterId：64，密碼：auto，tls：true，網絡：ws，ws-路徑：/footers，ws-headers：{主機：www.64140222.xyz}}
+  - {名稱：308，服務器：184.170.250.147，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：309，服務器：185.158.135.38，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：310，服務器：ahvuxfq.oqnqrysa.com，端口：443，類型：vmess，uuid：3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2，alterId：64，密碼：auto，tls：true，網絡：ws， ws-path：/，ws-headers：{主機：ahvuxfq.oqnqrysa.com}}
+  - {名稱：311，服務器：l1-aws-jp-08.mugun.xyz，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/mugua，ws-headers：{主機：l1-aws-jp-08.mugun.xyz}}
+  - {名稱：312，服務器：104.19.3.60，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：313，服務器：23.105.163.94，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：314，服務器：66.115.175.35，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：315，服務器：107.174.20.132，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：316，服務器：104.19.3.16，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：317，服務器：l1-aws-jp-10.mugun.xyz，端口：443，類型：vmess，uuid：79bb8abb-1f03-3a86-86b1-04b4333a7ec5，alterId：2，密碼：auto，tls：假，網絡：ws，ws-path：/mugua，ws-headers：{主機：l1-aws-jp-10.mugun.xyz}}
+  - {名稱：318，服務器：aga-jp.ide.wtf，端口：11011，類型：vmess，uuid：cccf242d-5da6-41ac-9ea3-9f78e7bb8c58，alterId：64，密碼：auto，tls：false，網絡： ws, ws-path: /downloads/wechat.setup.exe, ws-headers: {Host: aga-jp.ide.wtf}}
+  - {名稱：319，服務器：172.93.153.146，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：320，服務器：107.174.20.130，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：321，服務器：158.247.210.70，端口：28583，類型：vmess，uuid：4570868a-7f61-4ded-bef8-8c1479c9b89b，alterId：0，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：158.247.210.70}}
+  - {名稱：322，服務器：172.93.153.150，端口：40093，類型：ss，密碼：aes-256-gcm，密碼：x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {名稱：323，服務器：107.172.103.231，端口：52333，類型：vmess，uuid：475e7113-a34c-455a-e2a4-1ec8ec930108，alterId：2，密碼：auto，tls：false，網絡：ws，ws-路徑：/，ws-headers：{主機：107.172.103.231}}
+  - {名稱：324，服務器：66.115.175.37，端口：31572，類型：ss，密碼：aes-256-gcm，密碼：n8w4StnbVD9dmXYn4Ajt87EA}
+  - {名稱：325，服務器：172.83.42.7，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：326，服務器：172.83.42.136，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：327，服務器：23.105.163.80，端口：39772，類型：ss，密碼：aes-256-gcm，密碼：CUndSZnYsPKcu6Kj8THVMBHD}
+  - {名稱：328，服務器：198.8.85.82，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：329，服務器：37.120.196.59，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：330，服務器：192.154.253.67，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：331，服務器：104.19.19.58，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+  - {名稱：332，服務器：217.138.194.246，端口：808，類型：ss，密碼：chacha20-ietf-poly1305，密碼：G!yBwPWH3Vao}
+  - {名稱：333，服務器：45.43.19.90，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：334，服務器：172.83.42.138，端口：33992，類型：ss，密碼：aes-256-gcm，密碼：8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {名稱：335，服務器：104.19.2.14，端口：443，類型：vmess，uuid：9e6ceeff-2546-3690-ac00-6fcdf31dec94，alterId：2，密碼：auto，tls：true，網絡：ws，ws-路徑：/y284，ws-headers：{主機：freeus.mcan.tech}}
+代理組：
+  - 名稱：🔰 節點選擇
+    類型：選擇
+    代理：
+      - ♻️ 自動選擇
+      - 🎯 全球直連
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 323
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+  - 名稱：♻️ 自動選擇
+    類型：網址測試
+    網址：http://www.gstatic.com/generate_204
+    間隔：300
+    公差：0
+    代理：
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 3 23
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+  - 名稱：🌍 國外媒體
+    類型：選擇
+    代理：
+      - 🔰 節點選擇
+      - ♻️ 自動選擇
+      - 🎯 全球直連
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 323
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+  - 名稱：🌏 國內媒體
+    類型：選擇
+    代理：
+      - 🎯 全球直連
+      - 🔰 節點選擇
+  - 名稱：Ⓜ️微軟服務
+    類型：選擇
+    代理：
+      - 🎯 全球直連
+      - 🔰 節點選擇
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 323
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+  - 名稱：📲 電報信息
+    類型：選擇
+    代理：
+      - 🔰 節點選擇
+      - 🎯 全球直連
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 323
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+  - 名稱：🍎蘋果服務
+    類型：選擇
+    代理：
+      - 🔰 節點選擇
+      - 🎯 全球直連
+      - ♻️ 自動選擇
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 323
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+  - 名稱：🎯 全球直連
+    類型：選擇
+    代理：
+      - 直接的
+  - 名稱：🛑 全球攔截
+    類型：選擇
+    代理：
+      - 拒絕
+      - 直接的
+  - 名稱：🐟漏網之魚
+    類型：選擇
+    代理：
+      - 🔰 節點選擇
+      - 🎯 全球直連
+      - ♻️ 自動選擇
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+      - 99
+      - 100
+      - 101
+      - 102
+      - 103
+      - 104
+      - 105
+      - 106
+      - 107
+      - 108
+      - 109
+      - 110
+      - 111
+      - 112
+      - 113
+      - 114
+      - 115
+      - 116
+      - 117
+      - 118
+      - 119
+      - 120
+      - 121
+      - 122
+      - 123
+      - 124
+      - 125
+      - 126
+      - 127
+      - 128
+      - 129
+      - 130
+      - 131
+      - 132
+      - 133
+      - 134
+      - 135
+      - 136
+      - 137
+      - 138
+      - 139
+      - 140
+      - 141
+      - 142
+      - 143
+      - 144
+      - 145
+      - 146
+      - 147
+      - 148
+      - 149
+      - 150
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
+      - 157
+      - 158
+      - 159
+      - 160
+      - 161
+      - 162
+      - 163
+      - 164
+      - 165
+      - 166
+      - 167
+      - 168
+      - 169
+      - 170
+      - 171
+      - 172
+      - 173
+      - 174
+      - 175
+      - 176
+      - 177
+      - 178
+      - 179
+      - 180
+      - 181
+      - 182
+      - 183
+      - 184
+      - 185
+      - 186
+      - 187
+      - 188
+      - 189
+      - 190
+      - 191
+      - 192
+      - 193
+      - 194
+      - 195
+      - 196
+      - 197
+      - 198
+      - 199
+      - 200
+      - 201
+      - 202
+      - 203
+      - 204
+      - 205
+      - 206
+      - 207
+      - 208
+      - 209
+      - 210
+      - 211
+      - 212
+      - 213
+      - 214
+      - 215
+      - 216
+      - 217
+      - 218
+      - 219
+      - 220
+      - 221
+      - 222
+      - 223
+      - 224
+      - 225
+      - 226
+      - 227
+      - 228
+      - 229
+      - 230
+      - 231
+      - 232
+      - 233
+      - 234
+      - 235
+      - 236
+      - 237
+      - 238
+      - 239
+      - 240
+      - 241
+      - 242
+      - 243
+      - 244
+      - 245
+      - 246
+      - 247
+      - 248
+      - 249
+      - 250
+      - 251
+      - 252
+      - 253
+      - 254
+      - 255
+      - 256
+      - 257
+      - 258
+      - 259
+      - 260
+      - 261
+      - 262
+      - 263
+      - 264
+      - 265
+      - 266
+      - 267
+      - 268
+      - 269
+      - 270
+      - 271
+      - 272
+      - 273
+      - 274
+      - 275
+      - 276
+      - 277
+      - 278
+      - 279
+      - 280
+      - 281
+      - 282
+      - 283
+      - 284
+      - 285
+      - 286
+      - 287
+      - 288
+      - 289
+      - 290
+      - 291
+      - 292
+      - 293
+      - 294
+      - 295
+      - 296
+      - 297
+      - 298
+      - 299
+      - 300
+      - 301
+      - 302
+      - 303
+      - 304
+      - 305
+      - 306
+      - 307
+      - 308
+      - 309
+      - 310
+      - 311
+      - 312
+      - 313
+      - 314
+      - 315
+      - 316
+      - 317
+      - 318
+      - 319
+      - 320
+      - 321
+      - 322
+      - 323
+      - 324
+      - 325
+      - 326
+      - 327
+      - 328
+      - 329
+      - 330
+      - 331
+      - 332
+      - 333
+      - 334
+      - 335
+規則：
+ - DOMAIN-SUFFIX,local,🎯 全球直連
+ - IP-CIDR,192.168.0.0/16,🎯 全球直連,no-resolve
+ - IP-CIDR,10.0.0.0/8,🎯 全球直連,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 全球直連,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 全球直連,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 全球直連,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直連,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 全球直連,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 全球直連,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 全球直連,no-resolve
+ - DOMAIN-KEYWORD,1drv,Ⓜ️微軟服務
+ - DOMAIN-KEYWORD,microsoft,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,aadrm.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,acompli.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,acompli.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,aka.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,akadns.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,azure.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,azure.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,azureedge.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,azurerms.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,bing.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,gfx.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,hotmail.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,live.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,live.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,lync.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msauth.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msecnd.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msedge.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msft.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msftauth.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msidentity.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msn.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msocdn.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,msocsp.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,mstea.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,o365weve.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,office.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,office.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,office365.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,officeppe.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,omniroot.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,onedrive.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,onenote.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,onenote.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,onestore.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,outlook.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,public-trust.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sfx.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,skype.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,svc.ms,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,sway.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,uservoice.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,windows.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,windows.net,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,yammer.com,Ⓜ️微軟服務
+ - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️微軟服務
+ - DOMAIN,app.adjust.com,🎯 全球直連
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直連
+ - DOMAIN,dl.google.com,🎯 全球直連
+ - DOMAIN,mtalk.google.com,🎯 全球直連
+ - DOMAIN,livew.l.qq.com,🎯 全球直連
+ - DOMAIN,vd.l.qq.com,🎯 全球直連
+ - DOMAIN,analytics.strava.com,🎯 全球直連
+ - DOMAIN,msg.umeng.com,🎯 全球直連
+ - DOMAIN,msg.umengcloud.com,🎯 全球直連
+ - IP-CIDR,188.89.204.198/32,🛑全球攔截,no-resolve
+ - DOMAIN-SUFFIX,17gouwuba.com,🛑全球攔截
+ - DOMAIN-SUFFIX,186078.com,🛑全球攔截
+ - DOMAIN-SUFFIX,189zj.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,285680.com,🛑全球攔截
+ - DOMAIN-SUFFIX,3721zh.com,🛑全球攔截
+ - DOMAIN-SUFFIX,4336wang.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,51chumoping.com,🛑全球攔截
+ - DOMAIN-SUFFIX,51mld.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,51mypc.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,58mingri.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,58mingtian.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,5vl58stm.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,6d63d3.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,7gg.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,91veg.com,🛑全球攔截
+ - DOMAIN-SUFFIX,9s6q.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,adsame.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,akuai.top,🛑全球攔截
+ - DOMAIN-SUFFIX,atplay.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,baiwanchuangyi.com,🛑全球攔截
+ - DOMAIN-SUFFIX,beerto.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,beilamusi.com,🛑全球攔截
+ - DOMAIN-SUFFIX,benshiw.net,🛑全球攔截
+ - DOMAIN-SUFFIX,bianxianmao.com,🛑全球攔截
+ - DOMAIN-SUFFIX,bronypie.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,cishantao.com,🛑全球攔截
+ - DOMAIN-SUFFIX,cszlks.com,🛑全球攔截
+ - DOMAIN-SUFFIX,cudaojia.com,🛑全球攔截
+ - DOMAIN-SUFFIX,dafapromo.com,🛑全球攔截
+ - DOMAIN-SUFFIX,daitdai.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,dsaerf.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,dugesheying.com,🛑全球攔截
+ - DOMAIN-SUFFIX,dv8c1t.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,echatu.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,erdoscs.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,fan-yong.com,🛑全球攔截
+ - DOMAIN-SUFFIX,feih.com.cn,🛑 全球攔截
+ - DOMAIN-SUFFIX,fjlqqc.com,🛑全球攔截
+ - DOMAIN-SUFFIX,fkku194.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,freedrive.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,gclick.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,goufanli100.com,🛑全球攔截
+ - DOMAIN-SUFFIX,goupaoerdai.com,🛑全球攔截
+ - DOMAIN-SUFFIX,gouwubang.com,🛑全球攔截
+ - DOMAIN-SUFFIX,gzxnlk.com,🛑全球攔截
+ - DOMAIN-SUFFIX,haoshengtoys.com,🛑全球攔截
+ - DOMAIN-SUFFIX,hyunke.com,🛑全球攔截
+ - DOMAIN-SUFFIX,ichaosheng.com,🛑全球攔截
+ - DOMAIN-SUFFIX,ishop789.com,🛑全球攔截
+ - DOMAIN-SUFFIX,jdkic.com,🛑全球攔截
+ - DOMAIN-SUFFIX,jiubuhua.com,🛑全球攔截
+ - DOMAIN-SUFFIX,jsncke.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,junkucm.com,🛑全球攔截
+ - DOMAIN-SUFFIX,jwg365.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,kawo77.com,🛑全球攔截
+ - DOMAIN-SUFFIX,kualianyingxiao.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,kumihua.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,ltheanine.cn,🛑 全球攔截
+ - DOMAIN-SUFFIX,maipinshangmao.com,🛑全球攔截
+ - DOMAIN-SUFFIX,minisplat.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,mkitgfs.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,mlnbike.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,mobjump.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,nbkbgd.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,newapi.com,🛑全球攔截
+ - DOMAIN-SUFFIX,pinzhitmall.com,🛑全球攔截
+ - DOMAIN-SUFFIX,poppyta.com,🛑全球攔截
+ - DOMAIN-SUFFIX,qianchuanghr.com,🛑全球攔截
+ - DOMAIN-SUFFIX,qichexin.com,🛑全球攔截
+ - DOMAIN-SUFFIX,qinchugudao.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,quanliyouxi.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,qutaobi.com,🛑全球攔截
+ - DOMAIN-SUFFIX,ry51w.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sg536.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifubo.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifuce.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifuda.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifufu.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifuge.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifugu.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifuhe.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifuhu.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,sifuji.cn,🛑 全球攔截
+ - DOMAIN-SUFFIX,sifuka.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,smgru.net,🛑 全球攔截
+ - DOMAIN-SUFFIX,taogou.com,🛑全球攔截
+ - DOMAIN-SUFFIX,tcxshop.com,🛑全球攔截
+ - DOMAIN-SUFFIX,tjqonline.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,topitme.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,tt3sm4.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,tuia.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,tuipenguin.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,tuitiger.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,websd8.com,🛑全球攔截
+ - DOMAIN-SUFFIX,wsgblw.com,🛑全球攔截
+ - DOMAIN-SUFFIX,wx16999.com,🛑全球攔截
+ - DOMAIN-SUFFIX,xchmai.com,🛑全球攔截
+ - DOMAIN-SUFFIX,xiaohuau.xyz,🛑全球攔截
+ - DOMAIN-SUFFIX,ygyzx.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,yimong.com,🛑全球攔截
+ - DOMAIN-SUFFIX,yitaopt.com,🛑全球攔截
+ - DOMAIN-SUFFIX,yjqiqi.com,🛑全球攔截
+ - DOMAIN-SUFFIX,yukhj.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,zhaozecheng.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,zhenxinet.com,🛑全球攔截
+ - DOMAIN-SUFFIX,zlne800.com,🛑全球攔截
+ - DOMAIN-SUFFIX,zunmi.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,zzd6.com,🛑 全球攔截
+ - IP-CIDR,39.107.15.115/32,🛑全球攔截,no-resolve
+ - IP-CIDR,47.89.59.182/32,🛑 全球攔截,no-resolve
+ - IP-CIDR,103.49.209.27/32,🛑全球攔截,no-resolve
+ - IP-CIDR,123.56.152.96/32,🛑全球攔截,no-resolve
+ - IP-CIDR,61.160.200.223/32,🛑全球攔截，無解決
+ - IP-CI DR,61.160.200.242/32,🛑全球攔截,no-resolve
+ - IP-CI DR,61.160.200.252/32,🛑全球攔截,no-resolve
+ - IP-CIDR,61.174.50.214/32,🛑全球攔截，無解決
+ - IP-CI DR,111.175.220.163/32,🛑全球攔截,no-resolve
+ - IP-CI DR,111.175.220.164/32,🛑全球攔截,no-resolve
+ - IP-CIDR,122.229.8.47/32,🛑全球攔截,no-resolve
+ - IP-CIDR,122.229.29.89/32,🛑全球攔截,no-resolve
+ - IP-CI DR,124.232.160.178/32,🛑全球攔截,no-resolve
+ - IP-CIDR,175.6.223.15/32,🛑 全球攔截,no-resolve
+ - IP-CIDR,183.59.53.237/32,🛑全球攔截,no-resolve
+ - IP-CIDR,218.93.127.37/32,🛑全球攔截,no-resolve
+ - IP-CIDR,221.228.17.152/32,🛑全球攔截,no-resolve
+ - IP-CIDR,221.231.6.79/32,🛑 全球攔截,no-resolve
+ - IP-CIDR,222.186.61.91/32,🛑全球攔截,no-resolve
+ - IP-CIDR,222.186.61.95/32,🛑全球攔截,no-resolve
+ - IP-CIDR,222.186.61.96/32,🛑全球攔截,no-resolve
+ - IP-CIDR,222.186.61.97/32,🛑全球攔截,no-resolve
+ - IP-CIDR,106.75.231.48/32,🛑全球攔截,no-resolve
+ - IP-CIDR,119.4.249.166/32,🛑全球攔截,no-resolve
+ - IP-CIDR,220.196.52.141/32,🛑全球攔截,no-resolve
+ - IP-CIDR,221.6.4.148/32,🛑 全球攔截,no-resolve
+ - IP-CIDR,114.247.28.96/32,🛑全球攔截,no-resolve
+ - IP-CIDR,221.179.131.72/32,🛑全球攔截,no-resolve
+ - IP-CI DR,221.179.140.145/32,🛑全球攔截,no-resolve
+ - IP-CIDR,115.182.16.79/32,🛑全球攔截,no-resolve
+ - IP-CIDR,118.144.88.126/32,🛑全球攔截,no-resolve
+ - IP-CIDR,118.144.88.215/32,🛑全球攔截,no-resolve
+ - IP-CIDR,118.144.88.216/32,🛑全球攔截,no-resolve
+ - IP-CIDR,120.76.189.132/32,🛑全球攔截,no-resolve
+ - IP-CIDR,124.14.21.147/32,🛑全球攔截,no-resolve
+ - IP-CIDR,124.14.21.151/32,🛑全球攔截,no-resolve
+ - IP-CIDR,180.166.52.24/32,🛑全球攔截,no-resolve
+ - IP-CI DR,211.161.101.106/32,🛑全球攔截,no-resolve
+ - IP-CIDR,220.115.251.25/32,🛑全球攔截,no-resolve
+ - IP-CIDR,222.73.156.235/32,🛑全球攔截,no-resolve
+ - DOMAIN-SUFFIX,kuaizip.com,🛑全球攔截
+ - DOMAIN-SUFFIX,mackeeper.com,🛑全球攔截
+ - DOMAIN-SUFFIX,zryydi.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,flash.cn,🛑全球攔截
+ - DOMAIN,geo2.adobe.com,🛑全球攔截
+ - DOMAIN-SUFFIX,4009997658.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,abbyychina.com,🛑全球攔截
+ - DOMAIN-SUFFIX,bartender.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,betterzip.net,🛑全球攔截
+ - DOMAIN-SUFFIX,betterzipcn.com,🛑全球攔截
+ - DOMAIN-SUFFIX,beyondcompare.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,bingdianhuanyuan.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,chemdraw.com.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,cjmakeding.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,cjmkt.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,codesoftchina.com,🛑全球攔截
+ - DOMAIN-SUFFIX,coreldrawchina.com,🛑全球攔截
+ - DOMAIN-SUFFIX,crossoverchina.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,dongmansoft.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,earmasterchina.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,easyrecoverychina.com,🛑全球攔截
+ - DOMAIN-SUFFIX,ediuschina.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,flstudiochina.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,formysql.com,🛑全球攔截
+ - DOMAIN-SUFFIX,guitarpro.cc,🛑 全球攔截
+ - DOMAINSUFFIX,huishenghuiying.com.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,hypersnap.net,🛑全球攔截
+ - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球攔截
+ - DOMAIN-SUFFIX,imindmap.cc,🛑 全球攔截
+ - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,keyshot.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,kingdeecn.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,logoshejishi.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,luping.net.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,mairuan.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,mairuan.com,🛑全球攔截
+ - DOMAIN-SUFFIX,mairuan.com.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,mairuan.net,🛑 全球攔截
+ - DOMAIN-SUFFIX,mairuanwang.com,🛑全球攔截
+ - DOMAIN-SUFFIX,makeding.com,🛑全球攔截
+ - DOMAIN-SUFFIX,mathtype.cn,🛑 全球攔截
+ - DOMAIN-SUFFIX,mindmanager.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,mindmanager.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,mindmapper.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,mycleanmymac.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,nicelabel.cc,🛑 全球攔截
+ - DOMAIN-SUFFIX,ntfsformac.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,ntfsformac.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,overturechina.com,🛑 全球攔截
+ - DOMAIN-SUFFIX,passwordrecovery.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,pdfexpert.cc,🛑全球攔截
+ - DOMAIN-SUFFIX,photozoomchina.com,🛑全球攔截
+ - DOMAIN-SUFFIX,shankejingling.com,🛑全球攔截
+ - DOMAIN-SUFFIX,ultraiso.net,🛑 全球攔截
+ - DOMAIN-SUFFIX,vegaschina.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,xmindchina.net,🛑全球攔截
+ - DOMAIN-SUFFIX,xshellcn.com,🛑全球攔截
+ - DOMAIN-SUFFIX,yihuifu.cn,🛑全球攔截
+ - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑全球攔截
+ - DOMAIN-SUFFIX,zbrushcn.com,🛑全球攔截
+ - DOMAIN-SUFFIX,zhzzx.com,🛑全球攔截
+ - DOMAIN-SUFFIX,deezer.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,dzcdn.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,kkbox.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,kkbox.com.tw,🌍 國外媒體
+ - DOMAIN-SUFFIX,kfs.io,🌍 國外媒體
+ - DOMAIN-SUFFIX,joox.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,pandora.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,p-cdn.us,🌍 國外媒體
+ - DOMAIN-SUFFIX,sndcdn.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,soundcloud.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,pscdn.co,🌍 國外媒體
+ - DOMAIN-SUFFIX,scdn.co,🌍 國外媒體
+ - DOMAIN-SUFFIX,spotify.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,spoti.fi,🌍 國外媒體
+ - DOMAIN-KEYWORD,spotify.com,🌍 國外媒體
+ - DOMAIN-KEYWORD,-spotify-com,🌍 國外媒體
+ - DOMAIN-SUFFIX,tidal.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,c4assets.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,channel4.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,abema.io,🌍 國外媒體
+ - DOMAIN-SUFFIX,ameba.jp,🌍 國外媒體
+ - DOMAIN-SUFFIX,abema.tv,🌍 國外媒體
+ - DOMAIN-SUFFIX,hayabusa.io,🌍 國外媒體
+ - DOMAIN,abematv.akamaized.net,🌍 國外媒體
+ - DOMAIN,ds-linear-abematv.akamaized.net,🌍 國外媒體
+ - DOMAIN,ds-vod-abematv.akamaized.net,🌍 國外媒體
+ - DOMAIN,linear-abematv.akamaized.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,aiv-cdn.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,aiv-delivery.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,amazonvideo.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,primevideo.com,🌍 國外媒體
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 國外媒體
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 國外媒體
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 國外媒體
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 國外媒體
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 國外媒體
+ - DOMAIN-KEYWORD,avoddashs,🌍 國外媒體
+ - DOMAIN-SUFFIX,bahamut.com.tw,🌍 國外媒體
+ - DOMAIN-SUFFIX,gamer.com.tw,🌍 國外媒體
+ - DOMAIN,gamer-cds.cdn.hinet.net,🌍 國外媒體
+ - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,bbc.co.uk,🌍 國外媒體
+ - DOMAIN-SUFFIX,bbci.co.uk,🌍 國外媒體
+ - DOMAIN-KEYWORD,bbcfmt,🌍 國外媒體
+ - DOMAIN-KEYWORD,uk-live,🌍 國外媒體
+ - DOMAIN-SUFFIX,dazn.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,dazn-api.com,🌍 國外媒體
+ - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 國外媒體
+ - DOMAIN-KEYWORD,voddazn,🌍 國外媒體
+ - DOMAIN-SUFFIX,bamgrid.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,disney-plus.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,disneyplus.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,dssott.com,🌍 國外媒體
+ - DOMAIN,cdn.registerdisney.go.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,encoretvb.com,🌍 國外媒體
+ - DOMAIN,edge.api.brightcove.com,🌍 國外媒體
+ - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,fox.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,foxdcg.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,theplatform.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,uplynk.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hbo.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hbogo.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hbonow.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hbogoasia.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hbogoasia.hk,🌍 國外媒體
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 國外媒體
+ - DOMAIN,players.brightcove.net,🌍 國外媒體
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 國外媒體
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 國外媒體
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 國外媒體
+ - DOMAIN,hboasia1-i.akamaihd.net,🌍 國外媒體
+ - DOMAIN,hboasia2-i.akamaihd.net,🌍 國外媒體
+ - DOMAIN,hboasia3-i.akamaihd.net,🌍 國外媒體
+ - DOMAIN,hboasia4-i.akamaihd.net,🌍 國外媒體
+ - DOMAIN,hboasia5-i.akamaihd.net,🌍 國外媒體
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,5itv.tv,🌍 國外媒體
+ - DOMAIN-SUFFIX,ocnttv.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hulu.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,huluim.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,hulustream.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,happyon.jp,🌍 國外媒體
+ - DOMAIN-SUFFIX,hulu.jp,🌍 國外媒體
+ - DOMAIN-SUFFIX,itv.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,itvstatic.com,🌍 國外媒體
+ - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,kktv.com.tw,🌍 國外媒體
+ - DOMAIN-SUFFIX,kktv.me,🌍 國外媒體
+ - DOMAIN,kktv-theater.kk.stream,🌍 國外媒體
+ - DOMAIN-SUFFIX,linetv.tw,🌍 國外媒體
+ - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,litv.tv,🌍 國外媒體
+ - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,channel5.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,my5.tv,🌍 國外媒體
+ - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,mytvsuper.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,tvb.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,fast.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflix.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflix.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,nflxext.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,nflximg.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,nflximg.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,nflxso.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,nflxvideo.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest0.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest1.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest2.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest3.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest4.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest5.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest6.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 國外媒體
+ - IP-CIDR,23.246.0.0/18,🌍 國外媒體,no-resolve
+ - IP-CIDR,37.77.184.0/21,🌍 國外媒體,no-resolve
+ - IP-CIDR,45.57.0.0/17,🌍 國外媒體,no-resolve
+ - IP-CIDR,64.120.128.0/17,🌍 國外媒體,no-resolve
+ - IP-CIDR,66.197.128.0/17,🌍 國外媒體,no-resolve
+ - IP-CIDR,108.175.32.0/20,🌍 國外媒體,no-resolve
+ - IP-CIDR,192.173.64.0/18,🌍 國外媒體,no-resolve
+ - IP-CIDR,198.38.96.0/19,🌍 國外媒體,no-resolve
+ - IP-CIDR,198.45.48.0/20,🌍 國外媒體,no-resolve
+ - DOMAIN-SUFFIX,dmc.nico,🌍 國外媒體
+ - DOMAIN-SUFFIX,nicovideo.jp,🌍 國外媒體
+ - DOMAIN-SUFFIX,nimg.jp,🌍 國外媒體
+ - DOMAIN-SUFFIX,socdm.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,pbs.org,🌍 國外媒體
+ - DOMAIN-SUFFIX,phncdn.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,phprcdn.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,pornhub.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,pornhubpremium.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,skyking.com.tw,🌍 國外媒體
+ - DOMAIN,hamifans.emome.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,twitch.tv,🌍 國外媒體
+ - DOMAIN-SUFFIX,twitchcdn.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,ttvnw.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,jtvnw.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,viu.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,viu.tv,🌍 國外媒體
+ - DOMAIN,api.viu.now.com,🌍 國外媒體
+ - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 國外媒體
+ - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 國外媒體
+ - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 國外媒體
+ - DOMAIN-SUFFIX,googlevideo.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,youtube.com,🌍 國外媒體
+ - DOMAIN,youtubei.googleapis.com,🌍 國外媒體
+ - DOMAIN-SUFFIX,acg.tv,🌏 國內媒體
+ - DOMAIN-SUFFIX,acgvideo.com,🌏國內媒體
+ - DOMAIN-SUFFIX,b23.tv,🌏國內媒體
+ - DOMAIN-SUFFIX,biliapi.com,🌏國內媒體
+ - DOMAIN-SUFFIX,biliapi.net,🌏國內媒體
+ - DOMAIN-SUFFIX,bilibili.com,🌏國內媒體
+ - DOMAIN-SUFFIX,biligame.com,🌏國內媒體
+ - DOMAIN-SUFFIX,biligame.net,🌏國內媒體
+ - DOMAIN-SUFFIX,bilivideo.com,🌏國內媒體
+ - DOMAIN-SUFFIX,hdslb.com,🌏國內媒體
+ - DOMAIN-SUFFIX,im9.com,🌏 國內媒體
+ - DOMAIN-SUFFIX,smtcdns.net,🌏國內媒體
+ - DOMAIN-KEYWORD,qiyi,🌏國內媒體
+ - DOMAIN-SUFFIX,qy.net,🌏 國內媒體
+ - IP-CIDR,101.227.0.0/16,🌏 國內媒體,no-resolve
+ - IP-CIDR,101.224.0.0/13,🌏 國內媒體,no-resolve
+ - IP-CIDR,119.176.0.0/12,🌏 國內媒體,no-resolve
+ - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 國內媒體
+ - DOMAIN-SUFFIX,v.smtcdns.com,🌏 國內媒體
+ - DOMAIN-SUFFIX,vv.video.qq.com,🌏 國內媒體
+ - IP-CIDR,106.11.0.0/16,🌏 國內媒體,no-resolve
+ - DOMAIN-SUFFIX,t.me,📲 電報信息
+ - DOMAIN-SUFFIX,tdesktop.com,📲 電報信息
+ - DOMAIN-SUFFIX,telegra.ph,📲 電報信息
+ - DOMAIN-SUFFIX,telegram.me,📲 電報信息
+ - DOMAIN-SUFFIX,telegram.org,📲 電報信息
+ - DOMAIN-SUFFIX,telesco.pe,📲 電報信息
+ - IP-CIDR,91.108.4.0/22,📲 電報信息,無解析
+ - IP-CIDR,91.108.8.0/22,📲 電報信息,無解析
+ - IP-CIDR,91.108.12.0/22,📲 電報信息,無解析
+ - IP-CIDR,91.108.16.0/22,📲 電報信息,無解析
+ - IP-CIDR,91.108.56.0/22,📲 電報信息,無解析
+ - IP-CIDR,149.154.160.0/20,📲 電報信息,無解析
+ - IP-CIDR6,2001:b28:f23d::/48,📲 電報信息,無解決
+ - IP-CIDR6,2001:b28:f23f::/48,📲 電報信息,無解決
+ - IP-CIDR6,2001:67c:4e8::/48,📲 電報信息，未解決
+ - DOMAIN-SUFFIX,ampproject.org,🔰節點選擇
+ - DOMAIN-SUFFIX,appspot.com,🔰節點選擇
+ - DOMAIN-SUFFIX,blogger.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,getoutline.org,🔰節點選擇
+ - DOMAIN-SUFFIX,gvt0.com,🔰節點選擇
+ - DOMAIN-SUFFIX,gvt1.com,🔰節點選擇
+ - DOMAIN-SUFFIX,gvt3.com,🔰節點選擇
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰節點選擇
+ - DOMAIN-KEYWORD,google,🔰節點選擇
+ - DOMAIN-KEYWORD,blogspot,🔰 選擇節點
+ - DOMAIN-SUFFIX,onedrive.live.com,🔰節點選擇
+ - DOMAIN-SUFFIX,xboxlive.com,🔰節點選擇
+ - DOMAIN-SUFFIX,cdninstagram.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fb.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fb.me,🔰 節點選擇
+ - DOMAIN-SUFFIX,fbaddins.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fbcdn.net,🔰節點選擇
+ - DOMAIN-SUFFIX,fbsbx.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fbworkmail.com,🔰節點選擇
+ - DOMAIN-SUFFIX,instagram.com,🔰節點選擇
+ - DOMAIN-SUFFIX,m.me,🔰 節點選擇
+ - DOMAIN-SUFFIX,messenger.com,🔰節點選擇
+ - DOMAIN-SUFFIX,oculus.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,oculuscdn.com,🔰節點選擇
+ - DOMAIN-SUFFIX,rocksdb.org,🔰節點選擇
+ - DOMAIN-SUFFIX,whatsapp.com,🔰節點選擇
+ - DOMAIN-SUFFIX,whatsapp.net,🔰節點選擇
+ - DOMAIN-KEYWORD,facebook,🔰節點選擇
+ - IP-CIDR,3.123.36.126/32,🔰節點選擇,no-resolve
+ - IP-CIDR,35.157.215.84/32,🔰節點選擇,no-resolve
+ - IP-CIDR,35.157.217.255/32,🔰節點選擇,no-resolve
+ - IP-CIDR,52.58.209.134/32,🔰節點選擇,no-resolve
+ - IP-CIDR,54.93.124.31/32,🔰節點選擇,no-resolve
+ - IP-CIDR,54.162.243.80/32,🔰節點選擇,no-resolve
+ - IP-CIDR,54.173.34.141/32,🔰節點選擇,no-resolv
+ - IP-CIDR,54.235.23.242/32,🔰節點選擇,no-resolve
+ - IP-CIDR,169.45.248.118/32,🔰節點選擇,no-resolve
+ - DOMAIN-SUFFIX,pscp.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,periscope.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,t.co,🔰 節點選擇
+ - DOMAIN-SUFFIX,twimg.co,🔰節點選擇
+ - DOMAIN-SUFFIX,twimg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,twitpic.com,🔰節點選擇
+ - DOMAIN-SUFFIX,vine.co,🔰 節點選擇
+ - DOMAIN-KEYWORD,twitter,🔰節點選擇
+ - DOMAIN-SUFFIX,t.me,🔰 節點選擇
+ - DOMAIN-SUFFIX,tdesktop.com,🔰節點選擇
+ - DOMAIN-SUFFIX,telegra.ph,🔰節點選擇
+ - DOMAIN-SUFFIX,telegram.me,🔰節點選擇
+ - DOMAIN-SUFFIX,telegram.org,🔰節點選擇
+ - DOMAIN-SUFFIX,telesco.pe,🔰節點選擇
+ - IP-CIDR,91.108.4.0/22,🔰節點選擇,no-resolve
+ - IP-CIDR,91.108.8.0/22,🔰節點選擇,no-resolve
+ - IP-CIDR,91.108.12.0/22,🔰節點選擇,no-resolve
+ - IP-CIDR,91.108.16.0/22,🔰節點選擇,no-resolve
+ - IP-CIDR,91.108.56.0/22,🔰節點選擇,no-resolve
+ - IP-CIDR,149.154.160.0/20,🔰節點選擇,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🔰節點選擇,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🔰節點選擇,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🔰節點選擇,no-resolve
+ - DOMAIN-SUFFIX,line.me,🔰 節點選擇
+ - DOMAIN-SUFFIX,line-apps.com,🔰節點選擇
+ - DOMAIN-SUFFIX,line-scdn.net,🔰節點選擇
+ - DOMAIN-SUFFIX,naver.jp,🔰節點選擇
+ - IP-CIDR,103.2.30.0/23,🔰節點選擇,no-resolve
+ - IP-CIDR,125.209.208.0/20,🔰節點選擇,no-resolve
+ - IP-CIDR,147.92.128.0/17,🔰節點選擇,no-resolve
+ - IP-CIDR,203.104.144.0/21,🔰節點選擇,no-resolv
+ - DOMAIN-SUFFIX,4shared.com,🔰節點選擇
+ - DOMAIN-SUFFIX,520cc.cc,🔰節點選擇
+ - DOMAIN-SUFFIX,881903.com,🔰節點選擇
+ - DOMAIN-SUFFIX,9cache.com,🔰節點選擇
+ - DOMAIN-SUFFIX,9gag.com,🔰節點選擇
+ - DOMAIN-SUFFIX,abc.com,🔰節點選擇
+ - DOMAIN-SUFFIX,abc.net.au,🔰節點選擇
+ - DOMAIN-SUFFIX,abebooks.com,🔰節點選擇
+ - DOMAIN-SUFFIX,amazon.co.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,apigee.com,🔰節點選擇
+ - DOMAIN-SUFFIX,apk-dl​​.com,🔰節點選擇
+ - DOMAIN-SUFFIX,apkfind.com,🔰節點選擇
+ - DOMAIN-SUFFIX,apkmirror.com,🔰節點選擇
+ - DOMAIN-SUFFIX,apkmonk.com,🔰節點選擇
+ - DOMAIN-SUFFIX,apkpure.com,🔰節點選擇
+ - DOMAIN-SUFFIX,aptoide.com,🔰節點選擇
+ - DOMAIN-SUFFIX,archive.is,🔰節點選擇
+ - DOMAIN-SUFFIX,archive.org,🔰節點選擇
+ - DOMAIN-SUFFIX,arte.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,artstation.com,🔰節點選擇
+ - DOMAIN-SUFFIX,arukas.io,🔰節點選擇
+ - DOMAIN-SUFFIX,ask.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,avg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,avgle.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,badoo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bandwagonhost.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bbc.com,🔰節點選擇
+ - DOMAIN-SUFFIX,behance.net,🔰節點選擇
+ - DOMAIN-SUFFIX,bibox.com,🔰節點選擇
+ - DOMAIN-SUFFIX,biggo.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,binance.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bitcointalk.org,🔰節點選擇
+ - DOMAIN-SUFFIX,bitfinex.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bitmex.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bit-z.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bloglovin.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bloomberg.cn,🔰節點選擇
+ - DOMAIN-SUFFIX,bloomberg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,blubrry.com,🔰節點選擇
+ - DOMAIN-SUFFIX,book.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,booklive.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,books.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,boslife.net,🔰節點選擇
+ - DOMAIN-SUFFIX,box.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,businessinsider.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bwh1.net,🔰節點選擇
+ - DOMAIN-SUFFIX,castbox.fm,🔰節點選擇
+ - DOMAIN-SUFFIX,cbc.ca,🔰節點選擇
+ - DOMAIN-SUFFIX,cdw.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,change.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,channelnewsasia.com,🔰節點選擇
+ - DOMAIN-SUFFIX,ck101.com,🔰節點選擇
+ - DOMAIN-SUFFIX,clarionproject.org,🔰節點選擇
+ - DOMAIN-SUFFIX,clyp.it,🔰節點選擇
+ - DOMAIN-SUFFIX,cna.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,comparitech.com,🔰節點選擇
+ - DOMAIN-SUFFIX,conoha.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,crucial.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,cts.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,cw.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,cyberctm.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dailymotion.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dailyview.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,daum.net,🔰 節點選擇
+ - DOMAIN-SUFFIX,daumcdn.net,🔰節點選擇
+ - DOMAIN-SUFFIX,dcard.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,deepdiscount.com,🔰節點選擇
+ - DOMAIN-SUFFIX,depositphotos.com,🔰節點選擇
+ - DOMAIN-SUFFIX,deviantart.com,🔰節點選擇
+ - DOMAIN-SUFFIX,disconnect.me,🔰節點選擇
+ - DOMAIN-SUFFIX,discordapp.com,🔰節點選擇
+ - DOMAIN-SUFFIX,discordapp.net,🔰節點選擇
+ - DOMAIN-SUFFIX,disqus.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dlercloud.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dns2go.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dowjones.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dropbox.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dropboxusercontent.com,🔰節點選擇
+ - DOMAIN-SUFFIX,duckduckgo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dw.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,dynu.com,🔰節點選擇
+ - DOMAIN-SUFFIX,earthcam.com,🔰節點選擇
+ - DOMAIN-SUFFIX,ebookservice.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,economist.com,🔰節點選擇
+ - DOMAIN-SUFFIX,edgecastcdn.net,🔰節點選擇
+ - DOMAIN-SUFFIX,edu,🔰 節點選擇
+ - DOMAIN-SUFFIX,elpais.com,🔰節點選擇
+ - DOMAIN-SUFFIX,enanyang.my,🔰節點選擇
+ - DOMAIN-SUFFIX,encyclopedia.com,🔰節點選擇
+ - DOMAIN-SUFFIX,esoir.be,🔰節點選擇
+ - DOMAIN-SUFFIX,etherscan.io,🔰節點選擇
+ - DOMAIN-SUFFIX,euronews.com,🔰節點選擇
+ - DOMAIN-SUFFIX,evozi.com,🔰節點選擇
+ - DOMAIN-SUFFIX,feedly.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,firech.at,🔰節點選擇
+ - DOMAIN-SUFFIX,flickr.com,🔰節點選擇
+ - DOMAIN-SUFFIX,flitto.com,🔰節點選擇
+ - DOMAIN-SUFFIX,foreignpolicy.com,🔰節點選擇
+ - DOMAIN-SUFFIX,freebrowser.org,🔰節點選擇
+ - DOMAIN-SUFFIX,freewechat.com,🔰節點選擇
+ - DOMAIN-SUFFIX,freeweibo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,friday.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,ftchinese.com,🔰節點選擇
+ - DOMAIN-SUFFIX,ftimg.net,🔰節點選擇
+ - DOMAIN-SUFFIX,gate.io,🔰 節點選擇
+ - DOMAIN-SUFFIX,getlantern.org,🔰節點選擇
+ - DOMAIN-SUFFIX,getsync.com,🔰節點選擇
+ - DOMAIN-SUFFIX,globalvoices.org,🔰節點選擇
+ - DOMAIN-SUFFIX,goo.ne.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,goodreads.com,🔰節點選擇
+ - DOMAIN-SUFFIX,gov,🔰 節點選擇
+ - DOMAIN-SUFFIX,gov.tw,🔰 節點選擇
+ - DOMAIN-SUFFIX,greatfire.org,🔰節點選擇
+ - DOMAIN-SUFFIX,gumroad.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hbg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,heroku.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,hightail.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,hk01.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hkbf.org,🔰節點選擇
+ - DOMAIN-SUFFIX,hkbookcity.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hkej.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hket.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,hkgolden.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hoosuite.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hudson.org,🔰節點選擇
+ - DOMAIN-SUFFIX,hyread.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,ibtimes.com,🔰節點選擇
+ - DOMAIN-SUFFIX,i-cable.com,🔰節點選擇
+ - DOMAIN-SUFFIX,icij.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,icoco.com,🔰節點選擇
+ - DOMAIN-SUFFIX,imgur.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,initiummall.com,🔰節點選擇
+ - DOMAIN-SUFFIX,insecam.org,🔰節點選擇
+ - DOMAIN-SUFFIX,ipfs.io,🔰節點選擇
+ - DOMAIN-SUFFIX,issuu.com,🔰節點選擇
+ - DOMAIN-SUFFIX,istockphoto.com,🔰節點選擇
+ - DOMAIN-SUFFIX,japantimes.co.jp,🔰 節點選擇
+ - DOMAIN-SUFFIX,jiji.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,jinx.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,jkforum.net,🔰節點選擇
+ - DOMAIN-SUFFIX,joinmastodon.org,🔰節點選擇
+ - DOMAIN-SUFFIX,justmysocks.net,🔰節點選擇
+ - DOMAIN-SUFFIX,justpaste.it,🔰節點選擇
+ - DOMAIN-SUFFIX,kakao.com,🔰節點選擇
+ - DOMAIN-SUFFIX,kakaocorp.com,🔰節點選擇
+ - DOMAIN-SUFFIX,kik.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,kobo.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,kobobooks.com,🔰節點選擇
+ - DOMAIN-SUFFIX,kodingen.com,🔰節點選擇
+ - DOMAIN-SUFFIX,lemonde.fr,🔰節點選擇
+ - DOMAIN-SUFFIX,lepoint.fr,🔰節點選擇
+ - DOMAIN-SUFFIX,lihkg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,listennotes.com,🔰節點選擇
+ - DOMAIN-SUFFIX,livestream.com,🔰節點選擇
+ - DOMAIN-SUFFIX,logmein.com,🔰節點選擇
+ - DOMAIN-SUFFIX,mail.ru,🔰 節點選擇
+ - DOMAIN-SUFFIX,mailchimp.com,🔰節點選擇
+ - DOMAIN-SUFFIX,marc.info,🔰節點選擇
+ - DOMAIN-SUFFIX,matters.news,🔰節點選擇
+ - DOMAIN-SUFFIX,maying.co,🔰 節點選擇
+ - DOMAIN-SUFFIX,medium.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,mega.nz,🔰節點選擇
+ - DOMAIN-SUFFIX,mil,🔰節點選擇
+ - DOMAIN-SUFFIX,mingpao.com,🔰節點選擇
+ - DOMAIN-SUFFIX,mobile01.com,🔰節點選擇
+ - DOMAIN-SUFFIX,myspace.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,myspacecdn.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nanyang.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,naver.com,🔰節點選擇
+ - DOMAIN-SUFFIX,neowin.net,🔰節點選擇
+ - DOMAIN-SUFFIX,newstapa.org,🔰節點選擇
+ - DOMAIN-SUFFIX,nexitally.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nhk.or.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,nicovideo.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,nii.ac.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,nikkei.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nofile.io,🔰節點選擇
+ - DOMAIN-SUFFIX,now.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,nrk.no,🔰節點選擇
+ - DOMAIN-SUFFIX,nyaa.si,🔰節點選擇
+ - DOMAIN-SUFFIX,nyt.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,nytchina.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nytcn.me,🔰節點選擇
+ - DOMAIN-SUFFIX,nytco.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nytimes.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nytimg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nytlog.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nytstyle.com,🔰節點選擇
+ - DOMAIN-SUFFIX,ok.ru,🔰 節點選擇
+ - DOMAIN-SUFFIX,okex.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,on.cc,🔰 節點選擇
+ - DOMAIN-SUFFIX,orientaldaily.com.my,🔰節點選擇
+ - DOMAIN-SUFFIX,overcast.fm,🔰節點選擇
+ - DOMAIN-SUFFIX,paltalk.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,pao-pao.net,🔰節點選擇
+ - DOMAIN-SUFFIX,parsevideo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,pawoo.net,🔰 節點選擇
+ - DOMAIN-SUFFIX,pbxes.com,🔰節點選擇
+ - DOMAIN-SUFFIX,pcdvd.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,pchome.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,pcloud.com,🔰節點選擇
+ - DOMAIN-SUFFIX,picacic.com,🔰節點選擇
+ - DOMAIN-SUFFIX,pinimg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,pixiv.net,🔰節點選擇
+ - DOMAIN-SUFFIX,player.fm,🔰節點選擇
+ - DOMAIN-SUFFIX,plurk.com,🔰節點選擇
+ - DOMAIN-SUFFIX,po18.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,potato.im,🔰 節點選擇
+ - DOMAIN-SUFFIX,potatso.com,🔰節點選擇
+ - DOMAIN-SUFFIX,prism-break.org,🔰節點選擇
+ - DOMAIN-SUFFIX,proxifier.com,🔰節點選擇
+ - DOMAIN-SUFFIX,pt.im,🔰 節點選擇
+ - DOMAIN-SUFFIX,pts.org.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,pubu.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,pubu.tw,🔰 節點選擇
+ - DOMAIN-SUFFIX,pureapk.com,🔰節點選擇
+ - DOMAIN-SUFFIX,quora.com,🔰節點選擇
+ - DOMAIN-SUFFIX,quoracdn.net,🔰節點選擇
+ - DOMAIN-SUFFIX,rakuten.co.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,readingtimes.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,readmoo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,redbubble.com,🔰節點選擇
+ - DOMAIN-SUFFIX,reddit.com,🔰節點選擇
+ - DOMAIN-SUFFIX,redditmedia.com,🔰節點選擇
+ - DOMAIN-SUFFIX,redditstatic.com,🔰節點選擇
+ - DOMAIN-SUFFIX,resilio.com,🔰節點選擇
+ - DOMAIN-SUFFIX,reuters.com,🔰節點選擇
+ - DOMAIN-SUFFIX,reutersmedia.net,🔰節點選擇
+ - DOMAIN-SUFFIX,rfi.fr,🔰節點選擇
+ - DOMAIN-SUFFIX,rixcloud.com,🔰節點選擇
+ - DOMAIN-SUFFIX,roadshow.hk,🔰 節點選擇
+ - DOMAIN-SUFFIX,scmp.com,🔰節點選擇
+ - DOMAIN-SUFFIX,scribd.com,🔰節點選擇
+ - DOMAIN-SUFFIX,seatguru.com,🔰節點選擇
+ - DOMAIN-SUFFIX,shadowsocks.org,🔰節點選擇
+ - DOMAIN-SUFFIX,shopee.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,slideshare.net,🔰節點選擇
+ - DOMAIN-SUFFIX,soft Famous.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,soundcloud.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,ssrcloud.org,🔰節點選擇
+ - DOMAIN-SUFFIX,startpage.com,🔰節點選擇
+ - DOMAIN-SUFFIX,steamcommunity.com,🔰節點選擇
+ - DOMAIN-SUFFIX,steemit.com,🔰節點選擇
+ - DOMAIN-SUFFIX,steemitwallet.com,🔰節點選擇
+ - DOMAIN-SUFFIX,t66y.com,🔰節點選擇
+ - DOMAIN-SUFFIX,tapatalk.com,🔰節點選擇
+ - DOMAIN-SUFFIX,teco-hk.org,🔰節點選擇
+ - DOMAIN-SUFFIX,teco-mo.org,🔰節點選擇
+ - DOMAIN-SUFFIX,teddysun.com,🔰節點選擇
+ - DOMAIN-SUFFIX,textnow.me,🔰節點選擇
+ - DOMAIN-SUFFIX,theguardian.com,🔰節點選擇
+ - DOMAIN-SUFFIX,theinitium.com,🔰節點選擇
+ - DOMAIN-SUFFIX,thetvdb.com,🔰節點選擇
+ - DOMAIN-SUFFIX,tineye.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,torproject.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,tumblr.com,🔰節點選擇
+ - DOMAIN-SUFFIX,turbobit.net,🔰節點選擇
+ - DOMAIN-SUFFIX,tutanota.com,🔰節點選擇
+ - DOMAIN-SUFFIX,tvboxnow.com,🔰節點選擇
+ - DOMAIN-SUFFIX,udn.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,unseen.is,🔰節點選擇
+ - DOMAIN-SUFFIX,upmedia.mg,🔰節點選擇
+ - DOMAIN-SUFFIX,uptodown.com,🔰節點選擇
+ - DOMAIN-SUFFIX,urbandictionary.com,🔰節點選擇
+ - DOMAIN-SUFFIX,ustream.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,uwants.com,🔰節點選擇
+ - DOMAIN-SUFFIX,v2ray.com,🔰節點選擇
+ - DOMAIN-SUFFIX,viber.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,videopress.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,vimeo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,voachinese.com,🔰節點選擇
+ - DOMAIN-SUFFIX,voanews.com,🔰節點選擇
+ - DOMAIN-SUFFIX,voxer.com,🔰節點選擇
+ - DOMAIN-SUFFIX,vzw.com,🔰節點選擇
+ - DOMAIN-SUFFIX,w3schools.com,🔰節點選擇
+ - DOMAIN-SUFFIX,washingtonpost.com,🔰節點選擇
+ - DOMAIN-SUFFIX,wattpad.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,whoer.net,🔰 節點選擇
+ - DOMAIN-SUFFIX,wikimapia.org,🔰節點選擇
+ - DOMAIN-SUFFIX,wikimedia.org,🔰節點選擇
+ - DOMAIN-SUFFIX,wikipedia.org,🔰節點選擇
+ - DOMAIN-SUFFIX,wikiquote.org,🔰節點選擇
+ - DOMAIN-SUFFIX,wikiwand.com,🔰節點選擇
+ - DOMAIN-SUFFIX,winudf.com,🔰節點選擇
+ - DOMAIN-SUFFIX,wire.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,wordpress.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,workflow.is,🔰節點選擇
+ - DOMAIN-SUFFIX,worldcat.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,wsj.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,wsj.net,🔰 節點選擇
+ - DOMAIN-SUFFIX,xhamster.com,🔰節點選擇
+ - DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰節點選擇
+ - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,xnxx.com,🔰節點選擇
+ - DOMAIN-SUFFIX,xvideos.com,🔰節點選擇
+ - DOMAIN-SUFFIX,yahoo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,yandex.ru,🔰 節點選擇
+ - DOMAIN-SUFFIX,ycombinator.com,🔰節點選擇
+ - DOMAIN-SUFFIX,yesasia.com,🔰節點選擇
+ - DOMAIN-SUFFIX,yes-news.com,🔰節點選擇
+ - DOMAIN-SUFFIX,yomiuri.co.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,you-get.org,🔰節點選擇
+ - DOMAIN-SUFFIX,zaobao.com,🔰節點選擇
+ - DOMAIN-SUFFIX,zb.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,zello.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,zeronet.io,🔰節點選擇
+ - DOMAIN-SUFFIX,zoom.us,🔰節點選擇
+ - DOMAIN-KEYWORD,github,🔰節點選擇
+ - DOMAIN-KEYWORD,jav,🔰 節點選擇
+ - DOMAIN-KEYWORD,pinterest,🔰 節點選擇
+ - DOMAIN-KEYWORD,porn,🔰 節點選擇
+ - DOMAIN-KEYWORD,wikileaks,🔰 選擇節點
+ - DOMAIN-SUFFIX,apartmentratings.com,🔰節點選擇
+ - DOMAIN-SUFFIX,apartments.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bankmobilevibe.com,🔰節點選擇
+ - DOMAIN-SUFFIX,bing.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,booktopia.com.au,🔰節點選擇
+ - DOMAIN-SUFFIX,cccat.io,🔰節點選擇
+ - DOMAIN-SUFFIX,centauro.com.br,🔰節點選擇
+ - DOMAIN-SUFFIX,clearsurance.com,🔰節點選擇
+ - DOMAIN-SUFFIX,costco.com,🔰節點選擇
+ - DOMAIN-SUFFIX,crackle.com,🔰節點選擇
+ - DOMAIN-SUFFIX,depositphotos.cn,🔰節點選擇
+ - DOMAIN-SUFFIX,dish.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,dmm.co.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,dmm.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,dnvod.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,esurance.com,🔰節點選擇
+ - DOMAIN-SUFFIX,extmatrix.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fastpic.ru,🔰 節點選擇
+ - DOMAIN-SUFFIX,flipboard.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fnac.be,🔰節點選擇
+ - DOMAIN-SUFFIX,fnac.com,🔰節點選擇
+ - DOMAIN-SUFFIX,funkyimg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,fxnetworks.com,🔰節點選擇
+ - DOMAIN-SUFFIX,gettyimages.com,🔰節點選擇
+ - DOMAIN-SUFFIX,go.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,here.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,jcpenney.com,🔰節點選擇
+ - DOMAIN-SUFFIX,jiehua.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,mailfence.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nationwide.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,nbc.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nexon.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nordstrom.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nordstromimage.com,🔰節點選擇
+ - DOMAIN-SUFFIX,nordstromrack.com,🔰節點選擇
+ - DOMAIN-SUFFIX,superpages.com,🔰節點選擇
+ - DOMAIN-SUFFIX,target.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,thinkgeek.com,🔰節點選擇
+ - DOMAIN-SUFFIX,tracfone.com,🔰節點選擇
+ - DOMAIN-SUFFIX,unity3d.com,🔰節點選擇
+ - DOMAIN-SUFFIX,uploader.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,vevo.com,🔰節點選擇
+ - DOMAIN-SUFFIX,viu.tv,🔰節點選擇
+ - DOMAIN-SUFFIX,vk.com,🔰節點選擇
+ - DOMAIN-SUFFIX,vsco.co,🔰 節點選擇
+ - DOMAIN-SUFFIX,xfinity.com,🔰節點選擇
+ - DOMAIN-SUFFIX,zattoo.com,🔰節點選擇
+ - DOMAIN,testflight.apple.com,🔰節點選擇
+ - DOMAIN-SUFFIX,appsto.re,🔰節點選擇
+ - DOMAIN,books.itunes.apple.com,🔰節點選擇
+ - DOMAIN,hls.itunes.apple.com,🔰節點選擇
+ - DOMAIN,apps.apple.com,🔰 選擇節點
+ - DOMAIN,itunes.apple.com,🔰 選擇節點
+ - DOMAIN,api-glb-sea.smoot.apple.com,🔰節點選擇
+ - DOMAIN,lookup-api.apple.com,🔰節點選擇
+ - DOMAIN-SUFFIX,abc.xyz,🔰節點選擇
+ - DOMAIN-SUFFIX,android.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,androidify.com,🔰節點選擇
+ - DOMAIN-SUFFIX,dialogflow.com,🔰節點選擇
+ - DOMAIN-SUFFIX,autodraw.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,capitalg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,certificate-transparency.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,chrome.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,chromeexperiments.com,🔰節點選擇
+ - DOMAIN-SUFFIX,chromestatus.com,🔰節點選擇
+ - DOMAIN-SUFFIX,chromium.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,creativelab5.com,🔰節點選擇
+ - DOMAIN-SUFFIX,debug.com,🔰節點選擇
+ - DOMAIN-SUFFIX,deepmind.com,🔰節點選擇
+ - DOMAIN-SUFFIX,firebaseio.com,🔰節點選擇
+ - DOMAIN-SUFFIX,getmdl.io,🔰節點選擇
+ - DOMAIN-SUFFIX,ggpht.com,🔰節點選擇
+ - DOMAIN-SUFFIX,gmail.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,gmodules.com,🔰節點選擇
+ - DOMAIN-SUFFIX,godoc.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,golang.org,🔰 節點選擇
+ - DOMAIN-SUFFIX,gstatic.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,gv.com,🔰節點選擇
+ - DOMAIN-SUFFIX,gwtproject.org,🔰節點選擇
+ - DOMAIN-SUFFIX,itasoftware.com,🔰節點選擇
+ - DOMAIN-SUFFIX,madewithcode.com,🔰節點選擇
+ - DOMAIN-SUFFIX,material.io,🔰 節點選擇
+ - DOMAIN-SUFFIX,polymer-project.org,🔰節點選擇
+ - DOMAIN-SUFFIX,admin.recaptcha.net,🔰節點選擇
+ - DOMAIN-SUFFIX,recaptcha.net,🔰節點選擇
+ - DOMAIN-SUFFIX,shattered.io,🔰節點選擇
+ - DOMAIN-SUFFIX,synergyse.com,🔰節點選擇
+ - DOMAIN-SUFFIX,telephony.goog,🔰節點選擇
+ - DOMAIN-SUFFIX,tensorflow.org,🔰節點選擇
+ - DOMAIN-SUFFIX,tfhub.dev,🔰節點選擇
+ - DOMAIN-SUFFIX,tiltbrush.com,🔰節點選擇
+ - DOMAIN-SUFFIX,waveprotocol.org,🔰節點選擇
+ - DOMAIN-SUFFIX,waymo.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,webmproject.org,🔰節點選擇
+ - DOMAIN-SUFFIX,webrtc.org,🔰節點選擇
+ - DOMAIN-SUFFIX,whatbrowser.org,🔰節點選擇
+ - DOMAIN-SUFFIX,widevine.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,x.company,🔰 節點選擇
+ - DOMAIN-SUFFIX,youtu.be,🔰 節點選擇
+ - DOMAIN-SUFFIX,yt.be,🔰 節點選擇
+ - DOMAIN-SUFFIX,ytimg.com,🔰節點選擇
+ - DOMAIN-SUFFIX,1drv.com,🔰節點選擇
+ - DOMAIN-SUFFIX,1drv.ms,🔰節點選擇
+ - DOMAIN-SUFFIX,blob.core.windows.net,🔰節點選擇
+ - DOMAIN-SUFFIX,livefilestore.com,🔰節點選擇
+ - DOMAIN-SUFFIX,onedrive.com,🔰節點選擇
+ - DOMAIN-SUFFIX,storage.live.com,🔰節點選擇
+ - DOMAIN-SUFFIX,storage.msn.com,🔰節點選擇
+ - DOMAIN,oneclient.sfx.ms,🔰節點選擇
+ - DOMAIN-SUFFIX,0rz.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,4bluestones.biz,🔰節點選擇
+ - DOMAIN-SUFFIX,9bis.net,🔰節點選擇
+ - DOMAIN-SUFFIX,allconnected.co,🔰節點選擇
+ - DOMAIN-SUFFIX,aol.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,bcc.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,bit.ly,🔰 節點選擇
+ - DOMAIN-SUFFIX,bitshare.com,🔰節點選擇
+ - DOMAIN-SUFFIX,blog.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,blogimg.jp,🔰節點選擇
+ - DOMAIN-SUFFIX,blogtd.org,🔰節點選擇
+ - DOMAIN-SUFFIX,broadcast.co.nz,🔰節點選擇
+ - DOMAIN-SUFFIX,camfrog.com,🔰節點選擇
+ - DOMAIN-SUFFIX,cfos.de,🔰 節點選擇
+ - DOMAIN-SUFFIX,citypopulation.de,🔰節點選擇
+ - DOMAIN-SUFFIX,cloudfront.net,🔰節點選擇
+ - DOMAIN-SUFFIX,ctitv.com.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,cuhk.edu.hk,🔰節點選擇
+ - DOMAIN-SUFFIX,cusu.hk,🔰節點選擇
+ - DOMAIN-SUFFIX,discord.gg,🔰節點選擇
+ - DOMAIN-SUFFIX,discuss.com.hk,🔰節點選擇
+ - DOMAIN-SUFFIX,dropboxapi.com,🔰節點選擇
+ - DOMAIN-SUFFIX,duolingo.cn,🔰節點選擇
+ - DOMAIN-SUFFIX,edditstatic.com,🔰節點選擇
+ - DOMAIN-SUFFIX,flickriver.com,🔰節點選擇
+ - DOMAIN-SUFFIX,focustaiwan.tw,🔰節點選擇
+ - DOMAIN-SUFFIX,free.fr,🔰節點選擇
+ - DOMAIN-SUFFIX,gigacircle.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hk-pub.com,🔰節點選擇
+ - DOMAIN-SUFFIX,hosting.co.uk,🔰節點選擇
+ - DOMAIN-SUFFIX,hwcdn.net,🔰節點選擇
+ - DOMAIN-SUFFIX,ib.metapix.net,🔰節點選擇
+ - DOMAIN-SUFFIX,ifixit.com,🔰節點選擇
+ - DOMAIN-SUFFIX,inkbunny.net,🔰節點選擇
+ - DOMAIN-SUFFIX,iphone4hongkong.com,🔰節點選擇
+ - DOMAIN-SUFFIX,iphonetaiwan.org,🔰節點選擇
+ - DOMAIN-SUFFIX,iptvbin.com,🔰節點選擇
+ - DOMAIN-SUFFIX,linksalpha.com,🔰節點選擇
+ - DOMAIN-SUFFIX,manyvids.com,🔰節點選擇
+ - DOMAIN-SUFFIX,myactimes.com,🔰節點選擇
+ - DOMAIN-SUFFIX,newsblur.com,🔰節點選擇
+ - DOMAIN-SUFFIX,now.im,🔰 節點選擇
+ - DOMAIN-SUFFIX,nowe.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,redditlist.com,🔰節點選擇
+ - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,signal.org,🔰節點選擇
+ - DOMAIN-SUFFIX,smartmailcloud.com,🔰節點選擇
+ - DOMAIN-SUFFIX,sparknotes.com,🔰節點選擇
+ - DOMAIN-SUFFIX,streetvoice.com,🔰節點選擇
+ - DOMAIN-SUFFIX,supertop.co,🔰節點選擇
+ - DOMAIN-SUFFIX,tv.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,typepad.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,udnbkk.com,🔰節點選擇
+ - DOMAIN-SUFFIX,urbanairship.com,🔰節點選擇
+ - DOMAIN-SUFFIX,whispersystems.org,🔰節點選擇
+ - DOMAIN-SUFFIX,wikia.com,🔰節點選擇
+ - DOMAIN-SUFFIX,wn.com,🔰 節點選擇
+ - DOMAIN-SUFFIX,wolframalpha.com,🔰節點選擇
+ - DOMAIN-SUFFIX,x-art.com,🔰節點選擇
+ - DOMAIN-SUFFIX,yimg.com,🔰 節點選擇
+ - DOMAIN,api.steampowered.com,🔰 節點選擇
+ - DOMAIN,store.steampowered.com,🔰 節點選擇
+ - 域名後綴,aaplimg.com,🍎蘋果服務
+ - DOMAIN-SUFFIX,apple.co,🍎蘋果服務
+ - 域名後綴,apple.com,🍎蘋果服務
+ - 域名後綴,apple.com.cn,🍎蘋果服務
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🍎蘋果服務
+ - DOMAIN-SUFFIX,appstore.com,🍎蘋果服務
+ - 域名後綴,cdn-apple.com,🍎蘋果服務
+ - 域名後綴,crashlytics.com,🍎蘋果服務
+ - 域名後綴,icloud.com,🍎蘋果服務
+ - 域名後綴,icloud.com.cn,🍎蘋果服務
+ - DOMAIN-SUFFIX,icloud-content.com,🍎蘋果服務
+ - DOMAIN-SUFFIX,me.com,🍎蘋果服務
+ - 域名後綴,mzstatic.com,🍎蘋果服務
+ - 域名,www-cdn.icloud.com.akadns.net,🍎 蘋果服務
+ - DOMAIN-SUFFIX,qhres.com,🎯 全球直連
+ - DOMAIN-SUFFIX,qhimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,akadns.net,🎯 全球直連
+ - DOMAIN-SUFFIX,alibaba.com,🎯 全球直連
+ - DOMAIN-SUFFIX,alicdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直連
+ - DOMAIN-SUFFIX,alipay.com,🎯 全球直連
+ - DOMAIN-SUFFIX,amap.com,🎯 全球直連
+ - DOMAIN-SUFFIX,autonavi.com,🎯 全球直連
+ - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直連
+ - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直連
+ - DOMAIN-SUFFIX,soku.com,🎯 全球直連
+ - DOMAIN-SUFFIX,taobao.com,🎯 全球直連
+ - DOMAIN-SUFFIX,tmall.com,🎯 全球直連
+ - DOMAIN-SUFFIX,tmall.hk,🎯 全球直連
+ - DOMAIN-SUFFIX,ykimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,youku.com,🎯 全球直連
+ - DOMAIN-SUFFIX,xiami.com,🎯 全球直連
+ - DOMAIN-SUFFIX,xiami.net,🎯 全球直連
+ - DOMAIN-SUFFIX,aaplimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,apple.co,🎯 全球直連
+ - DOMAIN-SUFFIX,apple.com,🎯 全球直連
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🎯 全球直連
+ - DOMAIN-SUFFIX,appstore.com,🎯 全球直連
+ - DOMAIN-SUFFIX,cdn-apple.com,🎯 全球直連
+ - DOMAIN-SUFFIX,crashlytics.com,🎯 全球直連
+ - DOMAIN-SUFFIX,icloud.com,🎯 全球直連
+ - DOMAIN-SUFFIX,icloud-content.com,🎯 全球直連
+ - DOMAIN-SUFFIX,me.com,🎯 全球直連
+ - DOMAIN-SUFFIX,mzstatic.com,🎯 全球直連
+ - DOMAIN,www-cdn.icloud.com.akadns.net,🎯 全球直連
+ - DOMAIN-SUFFIX ,baidu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直連
+ - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直連
+ - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直連
+ - DOMAIN-SUFFIX,biliapi.com,🎯 全球直連
+ - DOMAIN-SUFFIX,biliapi.net,🎯 全球直連
+ - DOMAIN-SUFFIX,bilibili.com,🎯 全球直連
+ - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直連
+ - DOMAIN-SUFFIX,hdslb.com,🎯 全球直連
+ - DOMAIN-SUFFIX,blizzard.com,🎯 全球直連
+ - DOMAIN-SUFFIX,battle.net,🎯 全球直連
+ - DOMAIN,blzddist1-a.akamaihd.net,🎯 全球直連
+ - DOMAIN-SUFFIX,feiliao.com,🎯 全球直連
+ - DOMAIN-SUFFIX,pstatp.com,🎯 全球直連
+ - DOMAIN-SUFFIX,snssdk.com,🎯 全球直連
+ - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直連
+ - DOMAIN-SUFFIX,今日頭條,🎯 全球直連
+ - DOMAIN-SUFFIX,cctv.com,🎯 全球直連
+ - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,livechina.com,🎯 全球直連
+ - DOMAIN-SUFFIX,didialift.com,🎯 全球直連
+ - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直連
+ - DOMAIN-SUFFIX,udache.com,🎯 全球直連
+ - DOMAIN-SUFFIX,343480.com,🎯 全球直連
+ - DOMAIN-SUFFIX,baduziyuan.com,🎯 全球直連
+ - DOMAIN-SUFFIX,com-hs-hkdy.com,🎯 全球直連
+ - DOMAIN-SUFFIX,czybjz.com,🎯 全球直連
+ - DOMAIN-SUFFIX,dandanzan.com,🎯 全球直連
+ - DOMAIN-SUFFIX,fjhps.com,🎯 全球直連
+ - DOMAIN-SUFFIX,kuyunbo.club,🎯 全球直連
+ - DOMAIN-SUFFIX,21cn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,hitv.com,🎯 全球直連
+ - DOMAIN-SUFFIX,mgtv.com,🎯 全球直連
+ - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直連
+ - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,71.am.com,🎯 全球直連
+ - DOMAIN-SUFFIX,jd.com,🎯 全球直連
+ - DOMAIN-SUFFIX,jd.hk,🎯 全球直連
+ - DOMAIN-SUFFIX,jdpay.com,🎯 全球直連
+ - DOMAIN-SUFFIX,360buyimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,iciba.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ksosoft.com,🎯 全球直連
+ - DOMAIN-SUFFIX,meitu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,meitudata.com,🎯 全球直連
+ - DOMAIN-SUFFIX,meitustat.com,🎯 全球直連
+ - DOMAIN-SUFFIX,meipai.com,🎯 全球直連
+ - DOMAIN-SUFFIX,duokan.com,🎯 全球直連
+ - DOMAIN-SUFFIX,mi-img.com,🎯 全球直連
+ - DOMAIN-SUFFIX,miui.com,🎯 全球直連
+ - DOMAIN-SUFFIX,miwifi.com,🎯 全球直連
+ - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直連
+ - DOMAIN-SUFFIX,microsoft.com,🎯 全球直連
+ - DOMAIN-SUFFIX,msecnd.net,🎯 全球直連
+ - DOMAIN-SUFFIX,office365.com,🎯 全球直連
+ - DOMAIN-SUFFIX,outlook.com,🎯 全球直連
+ - DOMAIN-SUFFIX,s-microsoft.com,🎯 全球直連
+ - DOMAIN-SUFFIX,visualstudio.com,🎯 全球直連
+ - DOMAIN-SUFFIX,windows.com,🎯 全球直連
+ - DOMAIN-SUFFIX,windowsupdate.com,🎯 全球直連
+ - DOMAIN,officecdn-microsoft-com.akamaized.net,🎯 全球直連
+ - DOMAIN-SUFFIX,163.com,🎯 全球直連
+ - DOMAIN-SUFFIX,126.net,🎯 全球直連
+ - DOMAIN-SUFFIX,127.net,🎯 全球直連
+ - DOMAIN-SUFFIX,163yun.com,🎯 全球直連
+ - DOMAIN-SUFFIX,lofter.com,🎯 全球直連
+ - DOMAIN-SUFFIX,netease.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sina.com,🎯 全球直連
+ - DOMAIN-SUFFIX,weibo.com,🎯 全球直連
+ - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sohu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sohucs.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直連
+ - DOMAIN-SUFFIX,v-56.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sogo.com,🎯 全球直連
+ - DOMAIN-SUFFIX,搜狗網,🎯 全球直連
+ - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steampowered.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steam-chat.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steamgames.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎯 全球直連
+ - DOMAIN-SUFFIX,steamstat.us,🎯 全球直連
+ - DOMAIN-SUFFIX,gtimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,igamecj.com,🎯 全球直連
+ - DOMAIN-SUFFIX,myapp.com,🎯 全球直連
+ - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直連
+ - DOMAIN-SUFFIX,qq.com,🎯 全球直連
+ - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直連
+ - DOMAIN-SUFFIX,tencent.com,🎯 全球直連
+ - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直連
+ - DOMAIN-SUFFIX,tenpay.com,🎯 全球直連
+ - DOMAIN,file-igamecj.akamaized.net,🎯 全球直連
+ - DOMAIN-SUFFIX,jstucdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直連
+ - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直連
+ - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直連
+ - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直連
+ - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直連
+ - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ccgslb.net,🎯 全球直連
+ - DOMAIN-SUFFIX,chinanetcenter.com,🎯 全球直連
+ - DOMAIN-SUFFIX,meixincdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直連
+ - DOMAIN-SUFFIX,staticdn.net,🎯 全球直連
+ - DOMAIN-SUFFIX,wangsu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ipip.net,🎯 全球直連
+ - DOMAIN-SUFFIX,ip.la,🎯 全球直連
+ - DOMAIN-SUFFIX,ip-cdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ipv6-test.com,🎯 全球直連
+ - DOMAIN-SUFFIX,test-ipv6.com,🎯 全球直連
+ - DOMAIN-SUFFIX,whatismyip.com,🎯 全球直連
+ - DOMAIN-SUFFIX,netspeedtestmaster.com,🎯 全球直連
+ - DOMAIN,speedtest.macpaw.com,🎯 全球直連
+ - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直連
+ - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直連
+ - DOMAIN-SUFFIX,broadcastthe.net,🎯 全球直連
+ - DOMAIN-SUFFIX,chdbits.co,🎯 全球直連
+ - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直連
+ - DOMAIN-SUFFIX,empornium.me,🎯 全球直連
+ - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直連
+ - DOMAIN-SUFFIX,hdchina.org,🎯 全球直連
+ - DOMAIN-SUFFIX,hdhome.org,🎯 全球直連
+ - DOMAIN-SUFFIX,hdsky.me,🎯 全球直連
+ - DOMAIN-SUFFIX,hdbits.org,🎯 全球直連
+ - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直連
+ - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直連
+ - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直連
+ - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直連
+ - DOMAIN-SUFFIX,morethan.tv,🎯 全球直連
+ - DOMAIN-SUFFIX,myonamouse.net,🎯 全球直連
+ - DOMAIN-SUFFIX,m-team.cc,🎯 全球直連
+ - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ncore.cc,🎯 全球直連
+ - DOMAIN-SUFFIX,open.cd,🎯 全球直連
+ - DOMAIN-SUFFIX,ourbits.club,🎯 全球直連
+ - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直連
+ - DOMAIN-SUFFIX,privatehd.to,🎯 全球直連
+ - DOMAIN-SUFFIX,pterclub.com,🎯 全球直連
+ - DOMAIN-SUFFIX,redacted.ch,🎯 全球直連
+ - DOMAIN-SUFFIX,springsunday.net,🎯 全球直連
+ - DOMAIN-SUFFIX,tjupt.org,🎯 全球直連
+ - DOMAIN-SUFFIX,totheglory.im,🎯 全球直連
+ - DOMAIN-SUFFIX,acm.org,🎯 全球直連
+ - DOMAIN-SUFFIX,acs.org,🎯 全球直連
+ - DOMAIN-SUFFIX,aip.org,🎯 全球直連
+ - DOMAIN-SUFFIX,ams.org,🎯 全球直連
+ - DOMAIN-SUFFIX,annualreviews.org,🎯 全球直連
+ - DOMAIN-SUFFIX,aps.org,🎯 全球直連
+ - DOMAIN-SUFFIX,ascelibrary.org,🎯 全球直連
+ - DOMAIN-SUFFIX,asm.org,🎯 全球直連
+ - DOMAIN-SUFFIX,asme.org,🎯 全球直連
+ - DOMAIN-SUFFIX,astm.org,🎯 全球直連
+ - DOMAIN-SUFFIX,bmj.com,🎯 全球直連
+ - DOMAIN-SUFFIX,cambridge.org,🎯 全球直連
+ - DOMAIN-SUFFIX,cas.org,🎯 全球直連
+ - DOMAIN-SUFFIX,clarivate.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ebscohost.com,🎯 全球直連
+ - DOMAIN-SUFFIX,emerald.com,🎯 全球直連
+ - DOMAIN-SUFFIX,engineeringvillage.com,🎯 全球直連
+ - DOMAIN-SUFFIX,icevirtuallibrary.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ieee.org,🎯 全球直連
+ - DOMAIN-SUFFIX,imf.org,🎯 全球直連
+ - DOMAIN-SUFFIX,iop.org,🎯 全球直連
+ - DOMAIN-SUFFIX,jamanetwork.com,🎯 全球直連
+ - DOMAIN-SUFFIX,jhu.edu,🎯 全球直連
+ - DOMAIN-SUFFIX,jstor.org,🎯 全球直連
+ - DOMAIN-SUFFIX,karger.com,🎯 全球直連
+ - DOMAIN-SUFFIX,libguides.com,🎯 全球直連
+ - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直連
+ - DOMAIN-SUFFIX,mpg.de,🎯 全球直連
+ - DOMAIN-SUFFIX,myilibrary.com,🎯 全球直連
+ - DOMAIN-SUFFIX,nature.com,🎯 全球直連
+ - DOMAIN-SUFFIX,oecd-ilibrary.org,🎯 全球直連
+ - DOMAIN-SUFFIX,osapublishing.org,🎯 全球直連
+ - DOMAIN-SUFFIX,oup.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ovid.com,🎯 全球直連
+ - DOMAIN-SUFFIX,oxfordartonline.com,🎯 全球直連
+ - DOMAIN-SUFFIX,oxfordbibliographies.com,🎯 全球直連
+ - DOMAIN-SUFFIX,oxfordmusiconline.com,🎯 全球直連
+ - DOMAIN-SUFFIX,pnas.org,🎯 全球直連
+ - DOMAIN-SUFFIX,proquest.com,🎯 全球直連
+ - DOMAIN-SUFFIX,rsc.org,🎯 全球直連
+ - DOMAIN-SUFFIX,sagepub.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sciencedirect.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sciencemag.org,🎯 全球直連
+ - DOMAIN-SUFFIX,scopus.com,🎯 全球直連
+ - DOMAIN-SUFFIX,siam.org,🎯 全球直連
+ - DOMAIN-SUFFIX,spiedigitallibrary.org,🎯 全球直連
+ - DOMAIN-SUFFIX,springer.com,🎯 全球直連
+ - DOMAIN-SUFFIX,springerlink.com,🎯 全球直連
+ - DOMAIN-SUFFIX,tandfonline.com,🎯 全球直連
+ - DOMAIN-SUFFIX,un.org,🎯 全球直連
+ - DOMAIN-SUFFIX,uni-bielefeld.de,🎯 全球直連
+ - DOMAIN-SUFFIX,webofknowledge.com,🎯 全球直連
+ - DOMAIN-SUFFIX,westlaw.com,🎯 全球直連
+ - DOMAIN-SUFFIX,wiley.com,🎯 全球直連
+ - DOMAIN-SUFFIX,worldbank.org,🎯 全球直連
+ - DOMAIN-SUFFIX,worldscientific.com,🎯 全球直連
+ - DOMAIN-SUFFIX,cn,🎯 全球直連
+ - DOMAIN-SUFFIX,360in.com,🎯 全球直連
+ - DOMAIN-SUFFIX,51ym.me,🎯 全球直連
+ - DOMAIN-SUFFIX,8686c.com,🎯 全球直連
+ - DOMAIN-SUFFIX,abchina.com,🎯 全球直連
+ - DOMAIN-SUFFIX,accuweather.com,🎯 全球直連
+ - DOMAIN-SUFFIX,aicoinstorge.com,🎯 全球直連
+ - DOMAIN-SUFFIX,air-matters.com,🎯 全球直連
+ - DOMAIN-SUFFIX,air-matters.io,🎯 全球直連
+ - DOMAIN-SUFFIX,aixifan.com,🎯 全球直連
+ - DOMAIN-SUFFIX,amd.com,🎯 全球直連
+ - DOMAIN-SUFFIX,b612.net,🎯 全球直連
+ - DOMAIN-SUFFIX,bdatu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,beitaichufang.com,🎯 全球直連
+ - DOMAIN-SUFFIX,bjango.com,🎯 全球直連
+ - DOMAIN-SUFFIX,booking.com,🎯 全球直連
+ - DOMAIN-SUFFIX,bstatic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,cailianpress.com,🎯 全球直連
+ - DOMAIN-SUFFIX,camera360.com,🎯 全球直連
+ - DOMAIN-SUFFIX,chinaso.com,🎯 全球直連
+ - DOMAIN-SUFFIX,chua.pro,🎯 全球直連
+ - DOMAIN-SUFFIX,chuimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直連
+ - DOMAIN-SUFFIX,chushou.tv,🎯 全球直連
+ - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直連
+ - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,攜程旅行網,🎯 全球直連
+ - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直連
+ - DOMAIN-SUFFIX,docschina.org,🎯 全球直連
+ - DOMAIN-SUFFIX,douban.com,🎯 全球直連
+ - DOMAIN-SUFFIX,doubanio.com,🎯 全球直連
+ - DOMAIN-SUFFIX,douyu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,dxycdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,dytt8.net,🎯 全球直連
+ - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直連
+ - DOMAIN-SUFFIX,eudic.net,🎯 全球直連
+ - DOMAIN-SUFFIX,feng.com,🎯 全球直連
+ - DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直連
+ - DOMAIN-SUFFIX,frdic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,futu5.com,🎯 全球直連
+ - DOMAIN-SUFFIX,futunn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,gandi.net,🎯 全球直連
+ - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,getpricetag.com,🎯 全球直連
+ - DOMAIN-SUFFIX,gifshow.com,🎯 全球直連
+ - DOMAIN-SUFFIX,godic.net,🎯 全球直連
+ - DOMAIN-SUFFIX,hicloud.com,🎯 全球直連
+ - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,hostbuf.com,🎯 全球直連
+ - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,huya.com,🎯 全球直連
+ - DOMAIN-SUFFIX,infinitynewtab.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ithome.com,🎯 全球直連
+ - DOMAIN-SUFFIX,java.com,🎯 全球直連
+ - DOMAIN-SUFFIX,jidian.im,🎯 全球直連
+ - DOMAIN-SUFFIX,kaiyanapp.com,🎯 全球直連
+ - DOMAIN-SUFFIX,kaspersky-labs.com,🎯 全球直連
+ - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,kkmh.com,🎯 全球直連
+ - DOMAIN-SUFFIX,licdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,linkedin.com,🎯 全球直連
+ - DOMAIN-SUFFIX,loli.net,🎯 全球直連
+ - DOMAIN-SUFFIX,luojilab.com,🎯 全球直連
+ - DOMAIN-SUFFIX,maoyan.com,🎯 全球直連
+ - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直連
+ - DOMAIN-SUFFIX,meituan.com,🎯 全球直連
+ - DOMAIN-SUFFIX,meituan.net,🎯 全球直連
+ - DOMAIN-SUFFIX,mobike.com,🎯 全球直連
+ - DOMAIN-SUFFIX,moke.com,🎯 全球直連
+ - DOMAIN-SUFFIX,mubu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,myzaker.com,🎯 全球直連
+ - DOMAIN-SUFFIX,nim-lang-cn.org,🎯 全球直連
+ - DOMAIN-SUFFIX,nvidia.com,🎯 全球直連
+ - DOMAIN-SUFFIX,oracle.com,🎯 全球直連
+ - DOMAIN-SUFFIX,paypal.com,🎯 全球直連
+ - DOMAIN-SUFFIX,paypalobjects.com,🎯 全球直連
+ - DOMAIN-SUFFIX,qdaily.com,🎯 全球直連
+ - DOMAIN-SUFFIX,qidian.com,🎯 全球直連
+ - DOMAIN-SUFFIX,qyer.com,🎯 全球直連
+ - DOMAIN-SUFFIX,qyerstatic.com,🎯 全球直連
+ - DOMAIN-SUFFIX,raychase.net,🎯 全球直連
+ - DOMAIN-SUFFIX,ronghub.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直連
+ - DOMAIN-SUFFIX,s-reader.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sankuai.com,🎯 全球直連
+ - DOMAIN-SUFFIX,scomper.me,🎯 全球直連
+ - DOMAIN-SUFFIX,seafile.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sm.ms,🎯 全球直連
+ - DOMAIN-SUFFIX,smzdm.com,🎯 全球直連
+ - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直連
+ - DOMAIN-SUFFIX,snwx.com,🎯 全球直連
+ - DOMAIN-SUFFIX,sspai.com,🎯 全球直連
+ - DOMAIN-SUFFIX,takungpao.com,🎯 全球直連
+ - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直連
+ - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直連
+ - DOMAIN-SUFFIX,udacity.com,🎯 全球直連
+ - DOMAIN-SUFFIX,uning.com,🎯 全球直連
+ - DOMAIN-SUFFIX,vmware.com,🎯 全球直連
+ - DOMAIN-SUFFIX,weather.com,🎯 全球直連
+ - DOMAIN-SUFFIX,weico.cc,🎯 全球直連
+ - DOMAIN-SUFFIX,weidian.com,🎯 全球直連
+ - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直連
+ - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直連
+ - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直連
+ - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直連
+ - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直連
+ - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直連
+ - DOMAIN-SUFFIX,zhihu.com,🎯 全球直連
+ - DOMAIN-SUFFIX,zhimg.com,🎯 全球直連
+ - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直連
+ - DOMAIN,download.jetbrains.com,🎯 全球直連
+ - DOMAIN,images-cn.ssl-images-amazon.com,🎯 全球直連
+ - DOMAIN,cdn.angruo.com,🎯 全球直連
+ - IP-CIDR,119.28.28.28/32,🎯 全球直連,no-resolve
+ - IP-CIDR,182.254.116.0/24,🎯 全球直連
+ - DOMAIN-KEYWORD,aria2,🎯 全球直連
+ - DOMAIN-KEYWORD,xunlei,🎯 全球直連
+ - DOMAIN-KEYWORD,yunpan,🎯 全球直連
+ - DOMAIN-KEYWORD,Thunder,🎯 全球直連
+ - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直連
+ - GEOIP,CN,🎯 全球直連
+ - MATCH,🐟漏網之魚
